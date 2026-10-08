@@ -1,0 +1,1206 @@
+[
+ {
+  "locus": {
+   "id": "chrX:147912046",
+   "chrom": "chrX",
+   "start": 147912046,
+   "end": 147912112,
+   "motif": "GCC",
+   "unit": "GCG",
+   "ulen": 3,
+   "n_units": 22,
+   "exact_units": 19,
+   "interrupt_units": 3,
+   "purity": 86.4,
+   "tract_len": 66.0,
+   "gc": 95.5,
+   "bucket_label": ">30\uff08\u6269\u5c55\u68c0\u6d4b\uff09",
+   "bucket_note": "fragile-X (CGG) locus; reference 22 units, premutation >55, full mutation >200 in patients",
+   "expansion_row": true,
+   "gene_hint": "FMR1"
+  },
+  "pair": {
+   "left_seq": "GCTACTTTGAACCGGACCAAAC",
+   "right_seq": "CTTGTAGAAAGCGCCATTGGAG",
+   "left_pos": [
+    261,
+    22
+   ],
+   "right_pos": [
+    983,
+    22
+   ],
+   "left_tm": 60.03142020879517,
+   "right_tm": 59.90350408257535,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.12791612621981585,
+   "product_size": 723,
+   "amplicon_start": 147911507,
+   "amplicon_end": 147912230,
+   "product_range_used": [
+    200,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 1,
+   "left_full_off": 0,
+   "left_end15_off": 1,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chrX:148500628",
+   "chrom": "chrX",
+   "start": 148500628,
+   "end": 148500691,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 21,
+   "exact_units": 18,
+   "interrupt_units": 3,
+   "purity": 85.7,
+   "tract_len": 63.0,
+   "gc": 95.2,
+   "bucket_label": ">30\uff08\u6269\u5c55\u68c0\u6d4b\uff09",
+   "bucket_note": "FRAXE fragile-site (CCG) locus; reference 21 units, expansion >200 in patients",
+   "expansion_row": true,
+   "gene_hint": "AFF2"
+  },
+  "pair": {
+   "left_seq": "TAGCTGATTTTGACAGTGGGGG",
+   "right_seq": "AGCTCCTCTTAACAAAGGCGAA",
+   "left_pos": [
+    616,
+    22
+   ],
+   "right_pos": [
+    1397,
+    22
+   ],
+   "left_tm": 60.29089628832094,
+   "right_tm": 59.961442893838694,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.3294533944822433,
+   "product_size": 782,
+   "amplicon_start": 148500444,
+   "amplicon_end": 148501226,
+   "product_range_used": [
+    200,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 3,
+   "left_full_off": 0,
+   "left_end15_off": 3,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr12:7628694",
+   "chrom": "chr12",
+   "start": 7628694,
+   "end": 7628790,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 32,
+   "exact_units": 26,
+   "interrupt_units": 6,
+   "purity": 81.2,
+   "tract_len": 96.0,
+   "gc": 93.8,
+   "bucket_label": ">30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408\uff08\u5bc6\u626b\u79cd\u5b50\u22658\u5355\u5143\u68c0\u51fa\uff09"
+  },
+  "pair": {
+   "left_seq": "TTGTCAGTTCCTTAGGACTCGC",
+   "right_seq": "TTCCTACTCGGGTTTGTGGAAG",
+   "left_pos": [
+    636,
+    22
+   ],
+   "right_pos": [
+    973,
+    22
+   ],
+   "left_tm": 60.02929032562406,
+   "right_tm": 59.961967109163425,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.0673232164606361,
+   "product_size": 338,
+   "amplicon_start": 7628530,
+   "amplicon_end": 7628868,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 3,
+   "left_full_off": 0,
+   "left_end15_off": 1,
+   "right_full_off": 0,
+   "right_end15_off": 2
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr19:10871582",
+   "chrom": "chr19",
+   "start": 10871582,
+   "end": 10871657,
+   "motif": "GCC",
+   "unit": "GGC",
+   "ulen": 3,
+   "n_units": 25,
+   "exact_units": 21,
+   "interrupt_units": 4,
+   "purity": 84.0,
+   "tract_len": 75.0,
+   "gc": 94.7,
+   "bucket_label": "25-30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "pair": {
+   "left_seq": "CTCGAAAGCAGCCGTTAATGAG",
+   "right_seq": "CTTTTCTCTGTCTGTCCCCTGG",
+   "left_pos": [
+    442,
+    22
+   ],
+   "right_pos": [
+    1319,
+    22
+   ],
+   "left_tm": 59.97027247448108,
+   "right_tm": 60.28994466075068,
+   "left_gc": 50.0,
+   "right_gc": 54.54545454545455,
+   "penalty": 0.3196721862695995,
+   "product_size": 878,
+   "amplicon_start": 10871224,
+   "amplicon_end": 10872102,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 23,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 23
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chr7:100694311",
+   "chrom": "chr7",
+   "start": 100694311,
+   "end": 100694386,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 25,
+   "exact_units": 23,
+   "interrupt_units": 2,
+   "purity": 92.0,
+   "tract_len": 75.0,
+   "gc": 97.3,
+   "bucket_label": "25-30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "pair": {
+   "left_seq": "TGTGTTTGTAGCAAGATGGCTG",
+   "right_seq": "CCAGCCTGGCCAACAAAAATAA",
+   "left_pos": [
+    727,
+    22
+   ],
+   "right_pos": [
+    1449,
+    22
+   ],
+   "left_tm": 59.4463983981849,
+   "right_tm": 59.96170531148135,
+   "left_gc": 45.45454545454545,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.5918962903337501,
+   "product_size": 723,
+   "amplicon_start": 100694238,
+   "amplicon_end": 100694961,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 57,
+   "left_full_off": 0,
+   "left_end15_off": 23,
+   "right_full_off": 0,
+   "right_end15_off": 34
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chrX:150983389",
+   "chrom": "chrX",
+   "start": 150983389,
+   "end": 150983455,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 22,
+   "exact_units": 19,
+   "interrupt_units": 3,
+   "purity": 86.4,
+   "tract_len": 66.0,
+   "gc": 97.0,
+   "bucket_label": "20-25",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "pair": {
+   "left_seq": "AGTGGAAAGAGCCTAGTTGAGC",
+   "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+   "left_pos": [
+    90,
+    22
+   ],
+   "right_pos": [
+    1024,
+    22
+   ],
+   "left_tm": 60.02765330309484,
+   "right_tm": 60.09516109396634,
+   "left_gc": 50.0,
+   "right_gc": 40.90909090909091,
+   "penalty": 0.1228143970611768,
+   "product_size": 935,
+   "amplicon_start": 150982679,
+   "amplicon_end": 150983614,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 25,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 25
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chrX:149631724",
+   "chrom": "chrX",
+   "start": 149631724,
+   "end": 149631784,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 20,
+   "exact_units": 17,
+   "interrupt_units": 3,
+   "purity": 85.0,
+   "tract_len": 60.0,
+   "gc": 96.7,
+   "bucket_label": "20-25",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "pair": {
+   "left_seq": "GATGGAACCGAGACGAAGAAGT",
+   "right_seq": "GAAGTTGGGACCCAAACTTTGG",
+   "left_pos": [
+    286,
+    22
+   ],
+   "right_pos": [
+    1275,
+    22
+   ],
+   "left_tm": 60.09464860105487,
+   "right_tm": 59.89757988180287,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.19706871925200176,
+   "product_size": 990,
+   "amplicon_start": 149631210,
+   "amplicon_end": 149632200,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 4,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 4
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr2:111120967",
+   "chrom": "chr2",
+   "start": 111120967,
+   "end": 111121024,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 19,
+   "exact_units": 16,
+   "interrupt_units": 3,
+   "purity": 84.2,
+   "tract_len": 57.0,
+   "gc": 93.0,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0819\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+   "right_seq": "AGAGTCAGACATTTGGGGGAAC",
+   "left_pos": [
+    508,
+    22
+   ],
+   "right_pos": [
+    996,
+    22
+   ],
+   "left_tm": 60.02874849018866,
+   "right_tm": 59.959588424910976,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.06916006527768559,
+   "product_size": 489,
+   "amplicon_start": 111120675,
+   "amplicon_end": 111121164,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 2,
+   "left_full_off": 0,
+   "left_end15_off": 1,
+   "right_full_off": 0,
+   "right_end15_off": 1
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr17:32142448",
+   "chrom": "chr17",
+   "start": 32142448,
+   "end": 32142502,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 18,
+   "exact_units": 16,
+   "interrupt_units": 2,
+   "purity": 88.9,
+   "tract_len": 54.0,
+   "gc": 96.3,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0818\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "TGAAAACCATGCAAGCTGATCG",
+   "right_seq": "AAAAGGAGGAGAGAAGCTTCGG",
+   "left_pos": [
+    482,
+    22
+   ],
+   "right_pos": [
+    1406,
+    22
+   ],
+   "left_tm": 60.09511011137357,
+   "right_tm": 60.02765330309484,
+   "left_gc": 45.45454545454545,
+   "right_gc": 50.0,
+   "penalty": 0.12276341446840888,
+   "product_size": 925,
+   "amplicon_start": 32142130,
+   "amplicon_end": 32143055,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 2,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 2
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr5:177554486",
+   "chrom": "chr5",
+   "start": 177554486,
+   "end": 177554540,
+   "motif": "GCC",
+   "unit": "CGC",
+   "ulen": 3,
+   "n_units": 18,
+   "exact_units": 15,
+   "interrupt_units": 3,
+   "purity": 83.3,
+   "tract_len": 54.0,
+   "gc": 90.7,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0818\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "AAACCCCACCAAAAACTCCTCC",
+   "right_seq": "ACCTTATTCAAAATGGCGCAGG",
+   "left_pos": [
+    2,
+    22
+   ],
+   "right_pos": [
+    985,
+    22
+   ],
+   "left_tm": 60.95777564083039,
+   "right_tm": 59.83374561786894,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 1.124030022961449,
+   "product_size": 984,
+   "amplicon_start": 177553688,
+   "amplicon_end": 177554672,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 3,
+   "left_full_off": 0,
+   "left_end15_off": 3,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr13:53201088",
+   "chrom": "chr13",
+   "start": 53201088,
+   "end": 53201139,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 13,
+   "interrupt_units": 4,
+   "purity": 76.5,
+   "tract_len": 51.0,
+   "gc": 90.2,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "GGATTACCAGAGTCAGGACACC",
+   "right_seq": "CACCAGCGTCAGGTTGTACTAG",
+   "left_pos": [
+    643,
+    22
+   ],
+   "right_pos": [
+    1117,
+    22
+   ],
+   "left_tm": 59.83127181513237,
+   "right_tm": 60.671350777866564,
+   "left_gc": 54.54545454545455,
+   "right_gc": 54.54545454545455,
+   "penalty": 0.8400789627341965,
+   "product_size": 475,
+   "amplicon_start": 53200931,
+   "amplicon_end": 53201406,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 7,
+   "left_full_off": 0,
+   "left_end15_off": 7,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr18:33578455",
+   "chrom": "chr18",
+   "start": 33578455,
+   "end": 33578506,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 96.1,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "CGGACTCCTACACAAGTTCCAA",
+   "right_seq": "TCCCGCAGAATAACAAAGAGCA",
+   "left_pos": [
+    284,
+    22
+   ],
+   "right_pos": [
+    1173,
+    22
+   ],
+   "left_tm": 59.963266874606006,
+   "right_tm": 60.2900075784176,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.3267407038115948,
+   "product_size": 890,
+   "amplicon_start": 33577939,
+   "amplicon_end": 33578829,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 14,
+   "left_full_off": 0,
+   "left_end15_off": 3,
+   "right_full_off": 0,
+   "right_end15_off": 11
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chr5:61332773",
+   "chrom": "chr5",
+   "start": 61332773,
+   "end": 61332824,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 96.1,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "TGCATGTACTCGTCCTTCAACA",
+   "right_seq": "GTATTCCCCTCCCCTCAAATCG",
+   "left_pos": [
+    662,
+    22
+   ],
+   "right_pos": [
+    1510,
+    22
+   ],
+   "left_tm": 59.96339601216101,
+   "right_tm": 60.224547830144445,
+   "left_gc": 45.45454545454545,
+   "right_gc": 54.54545454545455,
+   "penalty": 0.261151817983432,
+   "product_size": 849,
+   "amplicon_start": 61332635,
+   "amplicon_end": 61333484,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 1,
+   "left_full_off": 0,
+   "left_end15_off": 1,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr8:22693357",
+   "chrom": "chr8",
+   "start": 22693357,
+   "end": 22693408,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 92.2,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "pair": {
+   "left_seq": "GAAAAGCATGCGAGAGGGAAAG",
+   "right_seq": "ATATATGGGCAGCTACGTCACG",
+   "left_pos": [
+    494,
+    22
+   ],
+   "right_pos": [
+    991,
+    22
+   ],
+   "left_tm": 60.159462145711984,
+   "right_tm": 60.09470011828387,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.25416226399585184,
+   "product_size": 498,
+   "amplicon_start": 22693051,
+   "amplicon_end": 22693549,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 2,
+   "left_full_off": 0,
+   "left_end15_off": 2,
+   "right_full_off": 0,
+   "right_end15_off": 0
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr19:47271732",
+   "chrom": "chr19",
+   "start": 47271732,
+   "end": 47271760,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 14,
+   "exact_units": 14,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 28,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "AAGAGAATGAGGGGGAAGAGGA",
+   "right_seq": "GTCCAACTGCTACCTACACACA",
+   "left_pos": [
+    390,
+    22
+   ],
+   "right_pos": [
+    1340,
+    22
+   ],
+   "left_tm": 59.95355284849478,
+   "right_tm": 59.963266874606006,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.08318027689921337,
+   "product_size": 951,
+   "amplicon_start": 47271322,
+   "amplicon_end": 47272273,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 45,
+   "left_full_off": 0,
+   "left_end15_off": 39,
+   "right_full_off": 0,
+   "right_end15_off": 6
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chr1:88275021",
+   "chrom": "chr1",
+   "start": 88275021,
+   "end": 88275047,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "ACAGACCTCTTTGCCCTAACAG",
+   "right_seq": "GTCCAGCTTTAAATGCCGACAG",
+   "left_pos": [
+    172,
+    22
+   ],
+   "right_pos": [
+    858,
+    22
+   ],
+   "left_tm": 59.960916189841555,
+   "right_tm": 60.15951698656676,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.19860079672520214,
+   "product_size": 687,
+   "amplicon_start": 88274393,
+   "amplicon_end": 88275080,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 5,
+   "left_full_off": 0,
+   "left_end15_off": 4,
+   "right_full_off": 0,
+   "right_end15_off": 1
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr12:48971838",
+   "chrom": "chr12",
+   "start": 48971838,
+   "end": 48971864,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "CTAAATCTGGGGGCACTCCTTT",
+   "right_seq": "AACTGACGCAAAGAGGAGTGAT",
+   "left_pos": [
+    235,
+    22
+   ],
+   "right_pos": [
+    1053,
+    22
+   ],
+   "left_tm": 60.02494141872518,
+   "right_tm": 59.962228289079064,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.06271312964611298,
+   "product_size": 819,
+   "amplicon_start": 48971273,
+   "amplicon_end": 48972092,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 9,
+   "left_full_off": 0,
+   "left_end15_off": 4,
+   "right_full_off": 0,
+   "right_end15_off": 5
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr4:61532531",
+   "chrom": "chr4",
+   "start": 61532531,
+   "end": 61532555,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "AGCTTGTATGACTTGGAGTGGG",
+   "right_seq": "TGGCCAGAAACGTCCTTATCAA",
+   "left_pos": [
+    540,
+    22
+   ],
+   "right_pos": [
+    1413,
+    22
+   ],
+   "left_tm": 60.02682167459295,
+   "right_tm": 59.96078412290922,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.06603755168373482,
+   "product_size": 874,
+   "amplicon_start": 61532271,
+   "amplicon_end": 61533145,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 7,
+   "left_full_off": 0,
+   "left_end15_off": 6,
+   "right_full_off": 0,
+   "right_end15_off": 1
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr2:126245764",
+   "chrom": "chr2",
+   "start": 126245764,
+   "end": 126245790,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "GTCAGATAACTCCGAGTGTCCC",
+   "right_seq": "TCTGCGTCCTGGCTTACTTATC",
+   "left_pos": [
+    650,
+    22
+   ],
+   "right_pos": [
+    1242,
+    22
+   ],
+   "left_tm": 59.900573008734455,
+   "right_tm": 59.899084324417004,
+   "left_gc": 54.54545454545455,
+   "right_gc": 50.0,
+   "penalty": 0.20034266684854174,
+   "product_size": 593,
+   "amplicon_start": 126245614,
+   "amplicon_end": 126246207,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 6,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 6
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr1:83850240",
+   "chrom": "chr1",
+   "start": 83850240,
+   "end": 83850264,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "ACCTCCTGTGATCCGCATATTC",
+   "right_seq": "ACTTCCCACCCTCATCACATTC",
+   "left_pos": [
+    752,
+    22
+   ],
+   "right_pos": [
+    1448,
+    22
+   ],
+   "left_tm": 59.962228289079064,
+   "right_tm": 60.02588716006335,
+   "left_gc": 50.0,
+   "right_gc": 50.0,
+   "penalty": 0.06365887098428402,
+   "product_size": 697,
+   "amplicon_start": 83850192,
+   "amplicon_end": 83850889,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 4,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 4
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr10:104587499",
+   "chrom": "chr10",
+   "start": 104587499,
+   "end": 104587523,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "AACAGATGAGCAAGGTACAGCA",
+   "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+   "left_pos": [
+    644,
+    22
+   ],
+   "right_pos": [
+    999,
+    22
+   ],
+   "left_tm": 59.96104810012247,
+   "right_tm": 59.95891857987368,
+   "left_gc": 45.45454545454545,
+   "right_gc": 50.0,
+   "penalty": 0.08003332000384944,
+   "product_size": 356,
+   "amplicon_start": 104587343,
+   "amplicon_end": 104587699,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 10,
+   "left_full_off": 0,
+   "left_end15_off": 3,
+   "right_full_off": 0,
+   "right_end15_off": 7
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr17:47351304",
+   "chrom": "chr17",
+   "start": 47351304,
+   "end": 47351328,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "GTTCTTATGCTCGGTCCTTGGA",
+   "right_seq": "AGAACTCGAAAGCACAAGCAAC",
+   "left_pos": [
+    376,
+    22
+   ],
+   "right_pos": [
+    1333,
+    22
+   ],
+   "left_tm": 60.09365826795488,
+   "right_tm": 59.967822266104406,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.12583600185047317,
+   "product_size": 958,
+   "amplicon_start": 47350880,
+   "amplicon_end": 47351838,
+   "product_range_used": [
+    200,
+    1000
+   ],
+   "full_off": 0,
+   "end15_off": 30,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 30
+  },
+  "status": "ok_check"
+ },
+ {
+  "locus": {
+   "id": "chr5:139652147",
+   "chrom": "chr5",
+   "start": 139652147,
+   "end": 139652171,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "ACTTTCCAGGTTGCAGGATAGG",
+   "right_seq": "TTTTGTGGTCTGGTGAGTTCCA",
+   "left_pos": [
+    366,
+    22
+   ],
+   "right_pos": [
+    935,
+    22
+   ],
+   "left_tm": 60.02588716006335,
+   "right_tm": 60.02579309445605,
+   "left_gc": 50.0,
+   "right_gc": 45.45454545454545,
+   "penalty": 0.05168025451939684,
+   "product_size": 570,
+   "amplicon_start": 139651713,
+   "amplicon_end": 139652283,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 6,
+   "left_full_off": 0,
+   "left_end15_off": 4,
+   "right_full_off": 0,
+   "right_end15_off": 2
+  },
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr16:73070915",
+   "chrom": "chr16",
+   "start": 73070915,
+   "end": 73070939,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "pair": {
+   "left_seq": "TTGTTTTCTTTTCCCCTTGCGG",
+   "right_seq": "GAAATTGAATGGCTGGACTCCG",
+   "left_pos": [
+    758,
+    22
+   ],
+   "right_pos": [
+    1109,
+    22
+   ],
+   "left_tm": 60.15902841015583,
+   "right_tm": 59.90188325372395,
+   "left_gc": 45.45454545454545,
+   "right_gc": 50.0,
+   "penalty": 0.25714515643187497,
+   "product_size": 352,
+   "amplicon_start": 73070873,
+   "amplicon_end": 73071225,
+   "product_range_used": [
+    250,
+    900
+   ],
+   "full_off": 0,
+   "end15_off": 1,
+   "left_full_off": 0,
+   "left_end15_off": 0,
+   "right_full_off": 0,
+   "right_end15_off": 1
+  },
+  "status": "ok"
+ }
+]

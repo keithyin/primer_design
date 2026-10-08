@@ -1,0 +1,125 @@
+# GC / GCC 重复序列 PCR 引物面板（GRCh38 / hg38）— 已通过两轮独立校验
+
+## 需求
+
+为 GC 二核苷酸重复（(GC)n，"GC repeats"）与 GC 三核苷酸重复（(GCC)n 家族，"GCC repeats"）
+设计侧翼 PCR 引物，拷贝数覆盖 20–25 / 25–30 / >30 三档，扩增子 ≤1 kb（硬上限 2 kb），
+给出 ≥20 对引物，并附设计与验证注意事项。**最终交付 24 对引物，全部经两轮独立校验：
+16 项数据校验（validation_report.md，方法 A–E）+ 24 行逐行从头复核（data_review.md，P1–P5）。**
+
+## 关键事实：参考基因组中 GC 重复的真实分布
+
+对 GRCh38 主装配（UCSC hg38，455 条 contig 全部扫描）做序列级串联扫描（TRF simpleRepeat
+轨道因打分阈值会漏掉短 GC 重复，故直接扫描序列）。因"含中断"重复的边界对种子阈值存在
+±1–2 单元的定义敏感性，下表并列三种种子阈值的稳健结果（已做 15bp/12bp 更低种子的敏感性
+检查，见 `data/sensitivity_15bp.json`、`data/sensitivity_dinuc.json`，结论均未再变化）：
+
+| 家族 | 完美串联最长 | 含中断（单元计）最长 | ≥20 拷贝位点数 | ≥30 拷贝位点数 |
+|---|---|---|---|---|
+| (GC)n 二核苷酸 | **14 拷贝**（chr19:47,271,733） | **18**（chrX:2,574,014 区，含中断口径） | **0**（12bp 种子下仍为 0） | **0** |
+| (GCC)n 家族（6 种阅读框为同一重复） | **23 拷贝**（chr7 GIGYF1 的 (CCG) 完美段） | 常规种子（≥10 单元纯核）25；密扫种子（≥8 单元）**32**（chr12:7,628,695） | 常规 6；密扫 **10** | 常规 0；密扫 **1** |
+
+原因：参考基因组代表"健康基线"单倍型。(CGG)>55、(GGC)>45 等患者型长等位不存在于参考装配。
+因此档位覆盖如下：
+- **"GCC 20–25"**：4 个真实位点（FMR1 22、HMGB3 22、AFF2 21、TMEM185A 20）+ 7 个 16–19 拷贝的
+  "最接近"位点（表中标注 △）；
+- **"GCC 25–30"**：2 个真实位点（CARM1 25、GIGYF1 25；参考基因组中 25 即为该档最高）；
+- **"GCC >30"**：密扫发现真实位点 **chr12:7,628,695（32 单元 = 26 精确 + 6 中断，纯度 81%，
+  结构 GCT(GCC)₂CCT(GCC)₆CCT(GCC)₈CCT(GCC)₄CCT(GCC)₆GCT）已纳入面板（第 3 行）**；
+  另保留 FMR1、AFF2 作扩展检测设计（患者等位 55–200+ 拷贝；参考等位 22/21，
+  1 kb 内可容纳至 ~114 / ~93 拷贝，见表中 Repeats 特点列）；
+- **"(GC)n ≥20"**：参考基因组不存在（完美口径最长 14，含中断口径最长 18）。
+  如需 ≥20 拷贝 (GC)n 标准品，请按文末第 8 条合成。
+
+## 设计方法
+
+1. **位点发现**：序列级扫描（正反链、全部阅读框），纯 GC 核种子 + 严格外推
+   （≤2 个连续非精确单元，运行精确率 ≥60%，总纯度 ≥75%），硬性不变量
+   `tract 长度 == 单元数 × 单元长`（已对全部扫描输出断言）。
+   常规种子 ≥10 单元（30bp）；对"≥20/>30 位点盘点"另做 ≥8 单元（24bp）密扫与
+   ≥5 单元（15bp）敏感性扫描；二核苷酸行按"最大完美串联"定义（两侧不可再延伸）。
+2. **引物设计**：primer3（primer3-py 2.3.1）：
+   - 长度 20–28（偏好 22），Tm 57–64（偏好 60℃），GC 35–65%；
+   - 50 mM 单价盐 / 1.5 mM Mg²⁺ / 50 nM DNA / 0.6 mM dNTP；
+   - 二聚体 ΔG ≥ -45 kcal/mol（any）/ -35（3'），发夹 ΔG ≥ -45，3' 端 ΔG ≤ 6 kcal/mol；
+   - `SEQUENCE_TARGET` = 重复 tract（强制扩增子夹住重复），
+     `SEQUENCE_EXCLUDED_REGION` = tract ± 相邻周期-2 简单重复（自动扩展防止引物落入
+     旁邻 (CA)n/(GT)n 微卫星）；
+   - 扩增子目标 250–900 bp，回退 1000 bp（最终 338–990 bp，未动用 2 kb 上限）；
+   - 每位移 10 个候选对；坐标约定（实证验证）：`PRIMER_LEFT` start 为左端 0-based、
+     `PRIMER_RIGHT` start 为**右引物 3' 端碱基**的 0-based 坐标，`产物 = rp + 1 - lp`。
+3. **特异性择优**：对全部候选引物做全基因组匹配（正反链全长 + 3' 端 15-mer），
+   按"全长脱靶 = 0 优先、3' 15-mer 脱靶最少、产物尽量短"择优。
+4. **权威特异性计数**：numpy 滚动哈希全基因组重扫（3.21 Gbp，455 contig），按基因组
+   位置计数（含重叠出现）。grep -o 只报非重叠匹配，在 (CA)n 区会少计，仅用于排序。
+5. **注释**：Ensembl REST（GRCh38）+ UCSC ncbiRefSeqCurated 交叉核对。
+
+## 数据校验
+
+### 第一轮：方法与数据校验（`results/validation_report.md`，16 项全部通过）
+
+| 方法 | 内容 | 结果 |
+|---|---|---|
+| X | TSV 与 designed.json 内部一致性、产物长=坐标跨度、拷贝数自洽、档位标签（含 >30 行） | PASS |
+| A | 参考基因组模拟 PCR（不经 primer3）：引物位点唯一、产物长度重算、重复区完整包含 | PASS |
+| B | 重复 tract 独立重分析（正则+相位法，与设计算法不同实现） | PASS |
+| C | 热力学：primer3 calcTm（最大偏差 0.046℃）+ Biopython Tm_NN（≤2.0℃ 容差）+ GC% + ΔG 复算 | PASS |
+| D | 双实现全基因组重扫：grep -F 与 numpy 滚动哈希全长脱靶计数完全一致；48 条引物全长脱靶 = 0、每条全基因组完整匹配恰好 1 次 | PASS |
+| E | UCSC RefSeq vs Ensembl 注释交叉核对 | PASS |
+
+### 第二轮：交付数据从头复核（`results/data_review.md`，24/24 行通过）
+
+复核脚本 `scripts/12_review_dataset.py` **不引用设计流水线任何代码**，直接从参考序列
+重算：引物结合位点（精确搜索+唯一性）、产物坐标、重复结构（逐 unit 复算 + 逆推 walk
+边界复现）、Tm/GC 复算、与 numpy 重扫交叉核对。5 个位点另做 unit 级深挖
+（FMR1、chr12、CARM1、GIGYF1、CCDC9）。
+
+**两轮校验发现并已修正的问题：**
+1. tract 外推记账 bug：中断单元计数与边界推进不一致，导致拷贝数与 tract 长度不自洽
+   （如 CARM1 旧值 26 单元/72bp 互相矛盾）；已修复并全面加硬性不变量断言。
+2. primer3 `PRIMER_RIGHT` 坐标语义误解：产物长度曾虚增 ~21bp；实证后改为 `rp+1-lp`。
+3. grep -o 非重叠匹配语义少计 15-mer 命中；权威计数改为 numpy 按位置计数。
+4. 校验器自身若干口径问题（ΔG 单位 cal/mol、genePred 字段名、GC 显示精度 96→95.5）。
+5. **第二轮复核发现**：辅助文件 `specificity.tsv`（旧面板引物）、`genome_scan.tsv`、
+   `dense_scan.tsv`（修正前算法）为陈旧版本 → 已用当前面板与修正算法重建
+   （13_repeat_scan_clean.py / 03_check_specificity.py）；README 中 FMR1/AFF2 扩展容量
+   数字（41/107 → **114/93**）与"参考基因组最长 25、无 >30"的结论过窄 → 已修正为
+   三种子阈值并列，并**新发现 chr12:7,628,695（32 单元）真实 >30 位点并入面板**。
+
+## 文件
+
+- `results/primer_design_results.tsv` — **24 对引物完整设计表（权威版本）**
+- `results/validation_report.md` — 16 项校验报告；`results/data_review.md` — 24 行从头复核（含 unit 级深挖）
+- `results/designed.json` / `results/candidates.json` — 设计中间产物
+- `results/specificity.tsv` — grep 版命中统计（排序用，非重叠语义）；`results/method_D_genomescan.json` — numpy 版权威计数
+- `results/annotation.tsv` — 位点基因注释
+- `data/genome_scan.tsv` — 完美串联扫描（GC ≥10 / GCC ≥15 单元）；`data/interrupted_scan.tsv` — 常规种子（≥10 单元）含中断扫描；`data/dense_scan.tsv` — 密扫（≥8 单元，含 chr12 >30 位点）；
+  `data/repeat_extremes.json`、`data/sensitivity_15bp.json`、`data/sensitivity_dinuc.json` — 极值/敏感性汇总
+- `scripts/` — 流水线：`09_build_panel.py → 02b_design_panel.py → 03b_pick_specific.py →
+  04_annotate.py → 11_validate_genome_scan.py → 05_build_report.py → 10_validate.py`；
+  复核/扫描工具：`13_repeat_scan_clean.py`（重建扫描文件）、`14/15`（更低种子敏感性）、
+  `12_review_dataset.py`（从头复核）、`03_check_specificity.py`（grep 版计数）
+  （01/02/06/07/08/08b 为早期探索脚本，保留备查）
+
+## PCR / 验证注意事项（GC 富集重复）
+
+1. **聚合酶与缓冲液**：GC 富集模板建议用高保真 GC-buffer 聚合酶（Q5 GC Enhancer、
+   Phusion GC Buffer、KAPA2G Robust 等），尤其 chr12/GIGYF1/CARM1 这类长 GC 重复位点。
+2. **添加剂**：DMSO 3–5% 或 betaine 0.5–1.5 M 可显著改善解链；可与 7-deaza-dGTP（3:1）合用。
+3. **循环策略**：98℃ 变性、退火 = Tm − 3℃ 起步做梯度/touchdown（如 65→58℃）；
+   延伸按产物长度常规设置（均 <1 kb）。
+4. **滑链（stutter）**：重复区在 PCR 与 Sanger 中必有 ±1 单元 mixed peak（(GC)n 二核苷酸
+   最严重），定长以主峰/峰包中位为准、正反双向测序；精确定长优先荧光毛细管电泳（GeneScan）。
+5. **拷贝数定标**：本表"预期扩增片段"按 GRCh38 参考等位计算（已独立复核）。实际样本
+   allele = 预期产物 ± 拷贝数差 × 单元长（GCC 家族 3bp、GC 家族 2bp）。含中断位点的
+   单元数存在 ±1–2 的定义敏感性（表中已给出精确/中断/纯度）。
+6. **扩展位点（FMR1/AFF2）**：参考等位 22/21 拷贝（FMR1 实测结构 (CGG)₁₀-AGG-(CGG)₉，
+   19 个 CGG + 1 个 AGG 中断；本表按 tract 记账为 22 单元）。患者扩展等位每 +1 拷贝产物
+   +3bp；1 kb 内 FMR1 可容纳 ~114 拷贝、AFF2 ~93 拷贝（覆盖前突变范围）；若放宽至 2 kb
+   理论上限分别 ~447/~427 拷贝，但长 GC 产物扩增效率需实验验证；>200 拷贝全突变按文献
+   改用 MP/Southern/长读长或 AGG 分布测定。
+7. **验证建议**：先以参考 DNA（如 NA12878）确认单一条带与预期长度，再引入已知拷贝数
+   差异的对照；建议扩增后测序验证侧翼-重复连接处。本表引物已做全基因组唯一性筛选
+   （双实现，全长脱靶 = 0），仍建议实验确认。
+8. **合成阳性对照**：若需要 25–30 / >30 各档或 ≥20 拷贝 (GC)n 的可扩展标准品，建议用本表
+   引物侧翼序列 + 指定拷贝数重复区合成 gBlock/质粒（弥补参考基因组缺失档位的标准做法）。

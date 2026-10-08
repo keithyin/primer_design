@@ -1,0 +1,6294 @@
+[
+ {
+  "locus": {
+   "id": "chrX:147912046",
+   "chrom": "chrX",
+   "start": 147912046,
+   "end": 147912112,
+   "motif": "GCC",
+   "unit": "GCG",
+   "ulen": 3,
+   "n_units": 22,
+   "exact_units": 19,
+   "interrupt_units": 3,
+   "purity": 86.4,
+   "tract_len": 66.0,
+   "gc": 95.5,
+   "bucket_label": ">30\uff08\u6269\u5c55\u68c0\u6d4b\uff09",
+   "bucket_note": "fragile-X (CGG) locus; reference 22 units, premutation >55, full mutation >200 in patients",
+   "expansion_row": true,
+   "gene_hint": "FMR1"
+  },
+  "candidates": [
+   {
+    "left_seq": "GGACCAAACCAAACCAAACCAA",
+    "right_seq": "TGGTCTCTCATTTCGATAGGCG",
+    "left_pos": [
+     274,
+     22
+    ],
+    "right_pos": [
+     1205,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.96531504711527,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.06178482244206407,
+    "product_size": 932,
+    "amplicon_start": 147911520,
+    "amplicon_end": 147912452,
+    "product_range_used": [
+     200,
+     1600
+    ]
+   },
+   {
+    "left_seq": "GGACCAAACCAAACCAAACCAA",
+    "right_seq": "AAGTACCTTGTAGAAAGCGCCA",
+    "left_pos": [
+     274,
+     22
+    ],
+    "right_pos": [
+     989,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.961967109163425,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06513276039390803,
+    "product_size": 716,
+    "amplicon_start": 147911520,
+    "amplicon_end": 147912236,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTACTTTGAACCGGACCAAAC",
+    "right_seq": "TGGTCTCTCATTTCGATAGGCG",
+    "left_pos": [
+     261,
+     22
+    ],
+    "right_pos": [
+     1205,
+     22
+    ],
+    "left_tm": 60.03142020879517,
+    "right_tm": 59.96531504711527,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06610516167989999,
+    "product_size": 945,
+    "amplicon_start": 147911507,
+    "amplicon_end": 147912452,
+    "product_range_used": [
+     200,
+     1600
+    ]
+   },
+   {
+    "left_seq": "GCTACTTTGAACCGGACCAAAC",
+    "right_seq": "AAGTACCTTGTAGAAAGCGCCA",
+    "left_pos": [
+     261,
+     22
+    ],
+    "right_pos": [
+     989,
+     22
+    ],
+    "left_tm": 60.03142020879517,
+    "right_tm": 59.961967109163425,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06945309963174395,
+    "product_size": 729,
+    "amplicon_start": 147911507,
+    "amplicon_end": 147912236,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGTCAGACTGCGCTACTTTGAA",
+    "right_seq": "TGGTCTCTCATTTCGATAGGCG",
+    "left_pos": [
+     250,
+     22
+    ],
+    "right_pos": [
+     1205,
+     22
+    ],
+    "left_tm": 59.96403943320439,
+    "right_tm": 59.96531504711527,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.07064551968034039,
+    "product_size": 956,
+    "amplicon_start": 147911496,
+    "amplicon_end": 147912452,
+    "product_range_used": [
+     200,
+     1600
+    ]
+   },
+   {
+    "left_seq": "AGTCAGACTGCGCTACTTTGAA",
+    "right_seq": "AAGTACCTTGTAGAAAGCGCCA",
+    "left_pos": [
+     250,
+     22
+    ],
+    "right_pos": [
+     989,
+     22
+    ],
+    "left_tm": 59.96403943320439,
+    "right_tm": 59.961967109163425,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.07399345763218435,
+    "product_size": 740,
+    "amplicon_start": 147911496,
+    "amplicon_end": 147912236,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGACCAAACCAAACCAAACCAA",
+    "right_seq": "CTTGTAGAAAGCGCCATTGGAG",
+    "left_pos": [
+     274,
+     22
+    ],
+    "right_pos": [
+     983,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.90350408257535,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.12359578698197993,
+    "product_size": 710,
+    "amplicon_start": 147911520,
+    "amplicon_end": 147912230,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGGGATAACCGGATGCATTTGA",
+    "right_seq": "TGGTCTCTCATTTCGATAGGCG",
+    "left_pos": [
+     351,
+     22
+    ],
+    "right_pos": [
+     1205,
+     22
+    ],
+    "left_tm": 60.09215784055948,
+    "right_tm": 59.96531504711527,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.12684279344421157,
+    "product_size": 855,
+    "amplicon_start": 147911597,
+    "amplicon_end": 147912452,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTACTTTGAACCGGACCAAAC",
+    "right_seq": "CTTGTAGAAAGCGCCATTGGAG",
+    "left_pos": [
+     261,
+     22
+    ],
+    "right_pos": [
+     983,
+     22
+    ],
+    "left_tm": 60.03142020879517,
+    "right_tm": 59.90350408257535,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.12791612621981585,
+    "product_size": 723,
+    "amplicon_start": 147911507,
+    "amplicon_end": 147912230,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGACCAAACCAAACCAAACCAA",
+    "right_seq": "CTCCTCCATCTTCTCTTCAGCC",
+    "left_pos": [
+     274,
+     22
+    ],
+    "right_pos": [
+     941,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.8970748557648,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.13002501379253317,
+    "product_size": 668,
+    "amplicon_start": 147911520,
+    "amplicon_end": 147912188,
+    "product_range_used": [
+     200,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chrX:148500628",
+   "chrom": "chrX",
+   "start": 148500628,
+   "end": 148500691,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 21,
+   "exact_units": 18,
+   "interrupt_units": 3,
+   "purity": 85.7,
+   "tract_len": 63.0,
+   "gc": 95.2,
+   "bucket_label": ">30\uff08\u6269\u5c55\u68c0\u6d4b\uff09",
+   "bucket_note": "FRAXE fragile-site (CCG) locus; reference 21 units, expansion >200 in patients",
+   "expansion_row": true,
+   "gene_hint": "AFF2"
+  },
+  "candidates": [
+   {
+    "left_seq": "CCCTGTGAGTGTGTAAGTGTGT",
+    "right_seq": "ACTCTTTAGACTTGGAGCGCAA",
+    "left_pos": [
+     748,
+     22
+    ],
+    "right_pos": [
+     1561,
+     22
+    ],
+    "left_tm": 60.158956972337535,
+    "right_tm": 59.96274880433754,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.1962081679999983,
+    "product_size": 814,
+    "amplicon_start": 148500576,
+    "amplicon_end": 148501390,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCCTGTGAGTGTGTAAGTGTGT",
+    "right_seq": "AGCTCCTCTTAACAAAGGCGAA",
+    "left_pos": [
+     748,
+     22
+    ],
+    "right_pos": [
+     1397,
+     22
+    ],
+    "left_tm": 60.158956972337535,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.19751407849884117,
+    "product_size": 650,
+    "amplicon_start": 148500576,
+    "amplicon_end": 148501226,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCCTGTGAGTGTGTAAGTGTGT",
+    "right_seq": "ACTCGCTCATCAAAGGAGAAGG",
+    "left_pos": [
+     748,
+     22
+    ],
+    "right_pos": [
+     1354,
+     22
+    ],
+    "left_tm": 60.158956972337535,
+    "right_tm": 60.09376355388423,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2527205262217649,
+    "product_size": 607,
+    "amplicon_start": 148500576,
+    "amplicon_end": 148501183,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "TAGCTGATTTTGACAGTGGGGG",
+    "right_seq": "AGCTCCTCTTAACAAAGGCGAA",
+    "left_pos": [
+     616,
+     22
+    ],
+    "right_pos": [
+     1397,
+     22
+    ],
+    "left_tm": 60.29089628832094,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.3294533944822433,
+    "product_size": 782,
+    "amplicon_start": 148500444,
+    "amplicon_end": 148501226,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "TAGCTGATTTTGACAGTGGGGG",
+    "right_seq": "ACTCGCTCATCAAAGGAGAAGG",
+    "left_pos": [
+     616,
+     22
+    ],
+    "right_pos": [
+     1354,
+     22
+    ],
+    "left_tm": 60.29089628832094,
+    "right_tm": 60.09376355388423,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.384659842205167,
+    "product_size": 739,
+    "amplicon_start": 148500444,
+    "amplicon_end": 148501183,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTGTGTAAGTGTGTGATGCTGC",
+    "right_seq": "ACTCTTTAGACTTGGAGCGCAA",
+    "left_pos": [
+     756,
+     22
+    ],
+    "right_pos": [
+     1561,
+     22
+    ],
+    "left_tm": 60.349816733223236,
+    "right_tm": 59.96274880433754,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.3870679288856991,
+    "product_size": 806,
+    "amplicon_start": 148500584,
+    "amplicon_end": 148501390,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTGTGTAAGTGTGTGATGCTGC",
+    "right_seq": "AGCTCCTCTTAACAAAGGCGAA",
+    "left_pos": [
+     756,
+     22
+    ],
+    "right_pos": [
+     1397,
+     22
+    ],
+    "left_tm": 60.349816733223236,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.38837383938454195,
+    "product_size": 642,
+    "amplicon_start": 148500584,
+    "amplicon_end": 148501226,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTGTGTAAGTGTGTGATGCTGC",
+    "right_seq": "ACTCGCTCATCAAAGGAGAAGG",
+    "left_pos": [
+     756,
+     22
+    ],
+    "right_pos": [
+     1354,
+     22
+    ],
+    "left_tm": 60.349816733223236,
+    "right_tm": 60.09376355388423,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.44358028710746567,
+    "product_size": 599,
+    "amplicon_start": 148500584,
+    "amplicon_end": 148501183,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCCTGTGAGTGTGTAAGTGTGT",
+    "right_seq": "TTCGATGTGAGCCAAATGCAAC",
+    "left_pos": [
+     748,
+     22
+    ],
+    "right_pos": [
+     1581,
+     22
+    ],
+    "left_tm": 60.158956972337535,
+    "right_tm": 60.35164081492968,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5105977872672156,
+    "product_size": 834,
+    "amplicon_start": 148500576,
+    "amplicon_end": 148501410,
+    "product_range_used": [
+     200,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCCTGTGAGTGTGTAAGTGTGT",
+    "right_seq": "CCGAATTCGATGTGAGCCAAAT",
+    "left_pos": [
+     748,
+     22
+    ],
+    "right_pos": [
+     1586,
+     22
+    ],
+    "left_tm": 60.158956972337535,
+    "right_tm": 59.644243678465216,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5147132938723189,
+    "product_size": 839,
+    "amplicon_start": 148500576,
+    "amplicon_end": 148501415,
+    "product_range_used": [
+     200,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr12:7628694",
+   "chrom": "chr12",
+   "start": 7628694,
+   "end": 7628790,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 32,
+   "exact_units": 26,
+   "interrupt_units": 6,
+   "purity": 81.2,
+   "tract_len": 96.0,
+   "gc": 93.8,
+   "bucket_label": ">30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408\uff08\u5bc6\u626b\u79cd\u5b50\u22658\u5355\u5143\u68c0\u51fa\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "TCTCTTGACCTTGTGATCTGCC",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     1412,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 60.02774516104307,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.055765246678163294,
+    "product_size": 927,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7629307,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TTGTCAGTTCCTTAGGACTCGC",
+    "right_seq": "TCTCTTGACCTTGTGATCTGCC",
+    "left_pos": [
+     636,
+     22
+    ],
+    "right_pos": [
+     1412,
+     22
+    ],
+    "left_tm": 60.02929032562406,
+    "right_tm": 60.02774516104307,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05703548666713232,
+    "product_size": 777,
+    "amplicon_start": 7628530,
+    "amplicon_end": 7629307,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACTCAGTCTCTGCAAACCTC",
+    "right_seq": "TCTCTTGACCTTGTGATCTGCC",
+    "left_pos": [
+     470,
+     22
+    ],
+    "right_pos": [
+     1412,
+     22
+    ],
+    "left_tm": 59.9635249982461,
+    "right_tm": 60.02774516104307,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06422016279697118,
+    "product_size": 943,
+    "amplicon_start": 7628364,
+    "amplicon_end": 7629307,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "TTCCTACTCGGGTTTGTGGAAG",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     973,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 59.961967109163425,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06605297647166708,
+    "product_size": 488,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7628868,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "GAAGTTGCCACAGGAGGTAGAA",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     1246,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06657719179639798,
+    "product_size": 761,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7629141,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "GAAGAAGTTGCCACAGGAGGTA",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     1249,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06657719179639798,
+    "product_size": 764,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7629144,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "AAGTTGCCACAGGAGGTAGAAG",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     1245,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 59.960916189841555,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0671038957935366,
+    "product_size": 760,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7629140,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACCTCGGTTTCCTCATCTGTC",
+    "right_seq": "AAGAAGTTGCCACAGGAGGTAG",
+    "left_pos": [
+     486,
+     22
+    ],
+    "right_pos": [
+     1248,
+     22
+    ],
+    "left_tm": 60.02802008563509,
+    "right_tm": 59.960916189841555,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0671038957935366,
+    "product_size": 763,
+    "amplicon_start": 7628380,
+    "amplicon_end": 7629143,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TTGTCAGTTCCTTAGGACTCGC",
+    "right_seq": "TTCCTACTCGGGTTTGTGGAAG",
+    "left_pos": [
+     636,
+     22
+    ],
+    "right_pos": [
+     973,
+     22
+    ],
+    "left_tm": 60.02929032562406,
+    "right_tm": 59.961967109163425,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0673232164606361,
+    "product_size": 338,
+    "amplicon_start": 7628530,
+    "amplicon_end": 7628868,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TTGTCAGTTCCTTAGGACTCGC",
+    "right_seq": "GAAGTTGCCACAGGAGGTAGAA",
+    "left_pos": [
+     636,
+     22
+    ],
+    "right_pos": [
+     1246,
+     22
+    ],
+    "left_tm": 60.02929032562406,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06784743178536701,
+    "product_size": 611,
+    "amplicon_start": 7628530,
+    "amplicon_end": 7629141,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr19:10871582",
+   "chrom": "chr19",
+   "start": 10871582,
+   "end": 10871657,
+   "motif": "GCC",
+   "unit": "GGC",
+   "ulen": 3,
+   "n_units": 25,
+   "exact_units": 21,
+   "interrupt_units": 4,
+   "purity": 84.0,
+   "tract_len": 75.0,
+   "gc": 94.7,
+   "bucket_label": "25-30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "candidates": [
+   {
+    "left_seq": "CTCGAAAGCAGCCGTTAATGAG",
+    "right_seq": "CCTCTTTTCTCTGTCTGTCCCC",
+    "left_pos": [
+     442,
+     22
+    ],
+    "right_pos": [
+     1322,
+     22
+    ],
+    "left_tm": 59.97027247448108,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.05738082861375915,
+    "product_size": 881,
+    "amplicon_start": 10871224,
+    "amplicon_end": 10872105,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTCGAAAGCAGCCGTTAATGAG",
+    "right_seq": "CCCTCTTTTCTCTGTCTGTCCC",
+    "left_pos": [
+     442,
+     22
+    ],
+    "right_pos": [
+     1323,
+     22
+    ],
+    "left_tm": 59.97027247448108,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.05738082861375915,
+    "product_size": 882,
+    "amplicon_start": 10871224,
+    "amplicon_end": 10872106,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTCGAAAGCAGCCGTTAATGAG",
+    "right_seq": "CTTTTCTCTGTCTGTCCCCTGG",
+    "left_pos": [
+     442,
+     22
+    ],
+    "right_pos": [
+     1319,
+     22
+    ],
+    "left_tm": 59.97027247448108,
+    "right_tm": 60.28994466075068,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.3196721862695995,
+    "product_size": 878,
+    "amplicon_start": 10871224,
+    "amplicon_end": 10872102,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CACTCGAAAGCAGCCGTTAATG",
+    "right_seq": "CCTCTTTTCTCTGTCTGTCCCC",
+    "left_pos": [
+     440,
+     22
+    ],
+    "right_pos": [
+     1322,
+     22
+    ],
+    "left_tm": 60.47452599280615,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.5021792959009872,
+    "product_size": 883,
+    "amplicon_start": 10871222,
+    "amplicon_end": 10872105,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CACTCGAAAGCAGCCGTTAATG",
+    "right_seq": "CCCTCTTTTCTCTGTCTGTCCC",
+    "left_pos": [
+     440,
+     22
+    ],
+    "right_pos": [
+     1323,
+     22
+    ],
+    "left_tm": 60.47452599280615,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.5021792959009872,
+    "product_size": 884,
+    "amplicon_start": 10871222,
+    "amplicon_end": 10872106,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACTCGAAAGCAGCCGTTAATGA",
+    "right_seq": "CCTCTTTTCTCTGTCTGTCCCC",
+    "left_pos": [
+     441,
+     22
+    ],
+    "right_pos": [
+     1322,
+     22
+    ],
+    "left_tm": 60.61197134923469,
+    "right_tm": 60.02765330309484,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.6396246523295304,
+    "product_size": 882,
+    "amplicon_start": 10871223,
+    "amplicon_end": 10872105,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACTCGAAAGCAGCCGTTAATGA",
+    "right_seq": "CCCTCTTTTCTCTGTCTGTCCC",
+    "left_pos": [
+     441,
+     22
+    ],
+    "right_pos": [
+     1323,
+     22
+    ],
+    "left_tm": 60.61197134923469,
+    "right_tm": 60.02765330309484,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.6396246523295304,
+    "product_size": 883,
+    "amplicon_start": 10871223,
+    "amplicon_end": 10872106,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACTCGAAAGCAGCCGTTAAT",
+    "right_seq": "CCTCTTTTCTCTGTCTGTCCCC",
+    "left_pos": [
+     439,
+     22
+    ],
+    "right_pos": [
+     1322,
+     22
+    ],
+    "left_tm": 60.61197134923469,
+    "right_tm": 60.02765330309484,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.6396246523295304,
+    "product_size": 884,
+    "amplicon_start": 10871221,
+    "amplicon_end": 10872105,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACTCGAAAGCAGCCGTTAAT",
+    "right_seq": "CCCTCTTTTCTCTGTCTGTCCC",
+    "left_pos": [
+     439,
+     22
+    ],
+    "right_pos": [
+     1323,
+     22
+    ],
+    "left_tm": 60.61197134923469,
+    "right_tm": 60.02765330309484,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.6396246523295304,
+    "product_size": 885,
+    "amplicon_start": 10871221,
+    "amplicon_end": 10872106,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTCGAAAGCAGCCGTTAATGAG",
+    "right_seq": "GCCCTCTTTTCTCTGTCTGTCC",
+    "left_pos": [
+     442,
+     22
+    ],
+    "right_pos": [
+     1324,
+     22
+    ],
+    "left_tm": 59.97027247448108,
+    "right_tm": 60.614228934854566,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.643956460373488,
+    "product_size": 883,
+    "amplicon_start": 10871224,
+    "amplicon_end": 10872107,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr7:100694311",
+   "chrom": "chr7",
+   "start": 100694311,
+   "end": 100694386,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 25,
+   "exact_units": 23,
+   "interrupt_units": 2,
+   "purity": 92.0,
+   "tract_len": 75.0,
+   "gc": 97.3,
+   "bucket_label": "25-30",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "candidates": [
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "GTGGTGGTGTGTGCTTGTAATC",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1420,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 60.03115719995242,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.454695502207926,
+    "product_size": 707,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100694932,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "CCAGCCTGGCCAACAAAAATAA",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 59.96170531148135,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.4618329907741554,
+    "product_size": 736,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100694961,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "ACAATTCAGGAGGCTGAGATGG",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1669,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 60.09253763496679,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.5160759372222969,
+    "product_size": 956,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100695181,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CGCTCCTCTGTGTTTGTGTTTG",
+    "right_seq": "GTGGTGGTGTGTGCTTGTAATC",
+    "left_pos": [
+     713,
+     22
+    ],
+    "right_pos": [
+     1420,
+     22
+    ],
+    "left_tm": 60.53954708294498,
+    "right_tm": 60.03115719995242,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.5707042828973954,
+    "product_size": 708,
+    "amplicon_start": 100694224,
+    "amplicon_end": 100694932,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGCTCCTCTGTGTTTGTGTTTG",
+    "right_seq": "CCAGCCTGGCCAACAAAAATAA",
+    "left_pos": [
+     713,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 60.53954708294498,
+    "right_tm": 59.96170531148135,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5778417714636248,
+    "product_size": 737,
+    "amplicon_start": 100694224,
+    "amplicon_end": 100694961,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "TGGTGGTGTGTGCTTGTAATCT",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1419,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 60.15868163547276,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5822199377282686,
+    "product_size": 706,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100694931,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "GGTGTGTGCTTGTAATCTCAGC",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1415,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 59.83958284488688,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.5839554573686314,
+    "product_size": 702,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100694927,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGTGTTTGTAGCAAGATGGCTG",
+    "right_seq": "GTGGTGGTGTGTGCTTGTAATC",
+    "left_pos": [
+     727,
+     22
+    ],
+    "right_pos": [
+     1420,
+     22
+    ],
+    "left_tm": 59.4463983981849,
+    "right_tm": 60.03115719995242,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.5847588017675207,
+    "product_size": 694,
+    "amplicon_start": 100694238,
+    "amplicon_end": 100694932,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTCCTCTGTGTTTGTGTTTGT",
+    "right_seq": "GCCTGAGCCACTTATTTCACAC",
+    "left_pos": [
+     714,
+     22
+    ],
+    "right_pos": [
+     1226,
+     22
+    ],
+    "left_tm": 59.57646169774449,
+    "right_tm": 59.837592155365996,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.585946146889512,
+    "product_size": 513,
+    "amplicon_start": 100694225,
+    "amplicon_end": 100694738,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGTGTTTGTAGCAAGATGGCTG",
+    "right_seq": "CCAGCCTGGCCAACAAAAATAA",
+    "left_pos": [
+     727,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 59.4463983981849,
+    "right_tm": 59.96170531148135,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5918962903337501,
+    "product_size": 723,
+    "amplicon_start": 100694238,
+    "amplicon_end": 100694961,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chrX:150983389",
+   "chrom": "chrX",
+   "start": 150983389,
+   "end": 150983455,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 22,
+   "exact_units": 19,
+   "interrupt_units": 3,
+   "purity": 86.4,
+   "tract_len": 66.0,
+   "gc": 97.0,
+   "bucket_label": "20-25",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "candidates": [
+   {
+    "left_seq": "AGTGGAAAGAGCCTAGTTGAGC",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     90,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.02765330309484,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.1228143970611768,
+    "product_size": 935,
+    "amplicon_start": 150982679,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCAATTTCGGGCGCAAATAAAG",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     54,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 59.9708763458936,
+    "right_tm": 60.09516109396634,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.12428474807273915,
+    "product_size": 971,
+    "amplicon_start": 150982643,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TGGCATTTAGTGGAAAGAGCCT",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     82,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 59.958379809171504,
+    "right_tm": 60.09516109396634,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.13678128479483576,
+    "product_size": 943,
+    "amplicon_start": 150982671,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCCTGCTTAATATGCATGAGGC",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     616,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.09485431147726,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.19001540544360296,
+    "product_size": 409,
+    "amplicon_start": 150983205,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AATCAGGTGGCTTTCGGATAGG",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     129,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.1587546938016,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.2539157877679372,
+    "product_size": 896,
+    "amplicon_start": 150982718,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGAATCAGGTGGCTTTCGGATA",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     127,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.15881282941717,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.2539739233835121,
+    "product_size": 898,
+    "amplicon_start": 150982716,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGACTAAATCCCGAGGTCTTGG",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     164,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.158942634350865,
+    "right_tm": 60.09516109396634,
+    "left_gc": 54.54545454545455,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.2541037283172045,
+    "product_size": 861,
+    "amplicon_start": 150982753,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTTTTCCTCTTTTAGCCCGTCG",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     27,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 59.84096274266403,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.25419835130230695,
+    "product_size": 998,
+    "amplicon_start": 150982616,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CTGCCCAGACTAGCGAACAATA",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     762,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.159099430483536,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.2542605244498759,
+    "product_size": 263,
+    "amplicon_start": 150983351,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AAGAGCCTAGTTGAGCACGATC",
+    "right_seq": "ACGCGTTGGAAAAGTTGAAACA",
+    "left_pos": [
+     96,
+     22
+    ],
+    "right_pos": [
+     1024,
+     22
+    ],
+    "left_tm": 60.159170036969954,
+    "right_tm": 60.09516109396634,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.25433113093629345,
+    "product_size": 929,
+    "amplicon_start": 150982685,
+    "amplicon_end": 150983614,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chrX:149631724",
+   "chrom": "chrX",
+   "start": 149631724,
+   "end": 149631784,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 20,
+   "exact_units": 17,
+   "interrupt_units": 3,
+   "purity": 85.0,
+   "tract_len": 60.0,
+   "gc": 96.7,
+   "bucket_label": "20-25",
+   "bucket_note": "\u2713 \u5b8c\u5168\u7b26\u5408"
+  },
+  "candidates": [
+   {
+    "left_seq": "GCAAGCAGAAAAGAATGGGGTT",
+    "right_seq": "AGTCGTCACTGGGGAAAATCTC",
+    "left_pos": [
+     328,
+     22
+    ],
+    "right_pos": [
+     1167,
+     22
+    ],
+    "left_tm": 59.96235864805749,
+    "right_tm": 60.02802008563509,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.06566143757760301,
+    "product_size": 840,
+    "amplicon_start": 149631252,
+    "amplicon_end": 149632092,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GATGGAACCGAGACGAAGAAGT",
+    "right_seq": "AGTCGTCACTGGGGAAAATCTC",
+    "left_pos": [
+     286,
+     22
+    ],
+    "right_pos": [
+     1167,
+     22
+    ],
+    "left_tm": 60.09464860105487,
+    "right_tm": 60.02802008563509,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.12266868668996267,
+    "product_size": 882,
+    "amplicon_start": 149631210,
+    "amplicon_end": 149632092,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCAAGCAGAAAAGAATGGGGTT",
+    "right_seq": "GCAACGTCTCACTCATTGTCAC",
+    "left_pos": [
+     328,
+     22
+    ],
+    "right_pos": [
+     1203,
+     22
+    ],
+    "left_tm": 59.96235864805749,
+    "right_tm": 60.09671284247901,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.13435419442151897,
+    "product_size": 876,
+    "amplicon_start": 149631252,
+    "amplicon_end": 149632128,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCAAGCAGAAAAGAATGGGGTT",
+    "right_seq": "GAAGTTGGGACCCAAACTTTGG",
+    "left_pos": [
+     328,
+     22
+    ],
+    "right_pos": [
+     1275,
+     22
+    ],
+    "left_tm": 59.96235864805749,
+    "right_tm": 59.89757988180287,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.1400614701396421,
+    "product_size": 948,
+    "amplicon_start": 149631252,
+    "amplicon_end": 149632200,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCAAGCAGAAAAGAATGGGGTT",
+    "right_seq": "GGAAGTTGGGACCCAAACTTTG",
+    "left_pos": [
+     328,
+     22
+    ],
+    "right_pos": [
+     1276,
+     22
+    ],
+    "left_tm": 59.96235864805749,
+    "right_tm": 59.89757988180287,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.1400614701396421,
+    "product_size": 949,
+    "amplicon_start": 149631252,
+    "amplicon_end": 149632201,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CAGAAGAGGATGGAACCGAGAC",
+    "right_seq": "AGTCGTCACTGGGGAAAATCTC",
+    "left_pos": [
+     278,
+     22
+    ],
+    "right_pos": [
+     1167,
+     22
+    ],
+    "left_tm": 60.159170036969954,
+    "right_tm": 60.02802008563509,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.18719012260504542,
+    "product_size": 890,
+    "amplicon_start": 149631202,
+    "amplicon_end": 149632092,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GATGGAACCGAGACGAAGAAGT",
+    "right_seq": "GCAACGTCTCACTCATTGTCAC",
+    "left_pos": [
+     286,
+     22
+    ],
+    "right_pos": [
+     1203,
+     22
+    ],
+    "left_tm": 60.09464860105487,
+    "right_tm": 60.09671284247901,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19136144353387863,
+    "product_size": 918,
+    "amplicon_start": 149631210,
+    "amplicon_end": 149632128,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GATGGAACCGAGACGAAGAAGT",
+    "right_seq": "GAAGTTGGGACCCAAACTTTGG",
+    "left_pos": [
+     286,
+     22
+    ],
+    "right_pos": [
+     1275,
+     22
+    ],
+    "left_tm": 60.09464860105487,
+    "right_tm": 59.89757988180287,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19706871925200176,
+    "product_size": 990,
+    "amplicon_start": 149631210,
+    "amplicon_end": 149632200,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GATGGAACCGAGACGAAGAAGT",
+    "right_seq": "GGAAGTTGGGACCCAAACTTTG",
+    "left_pos": [
+     286,
+     22
+    ],
+    "right_pos": [
+     1276,
+     22
+    ],
+    "left_tm": 60.09464860105487,
+    "right_tm": 59.89757988180287,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19706871925200176,
+    "product_size": 991,
+    "amplicon_start": 149631210,
+    "amplicon_end": 149632201,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCAAGCAGAAAAGAATGGGGTT",
+    "right_seq": "TGGGATGACATCGCCAAAAATG",
+    "left_pos": [
+     328,
+     22
+    ],
+    "right_pos": [
+     1224,
+     22
+    ],
+    "left_tm": 59.96235864805749,
+    "right_tm": 59.833950199764274,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.2036911521782372,
+    "product_size": 897,
+    "amplicon_start": 149631252,
+    "amplicon_end": 149632149,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr2:111120967",
+   "chrom": "chr2",
+   "start": 111120967,
+   "end": 111121024,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 19,
+   "exact_units": 16,
+   "interrupt_units": 3,
+   "purity": 84.2,
+   "tract_len": 57.0,
+   "gc": 93.0,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0819\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "TCCGAGAGTCAGAGTCAGACAT",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     1006,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 60.0267287226456,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05547721283426199,
+    "product_size": 499,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121174,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "CAGAGTCAGACATTTGGGGGAA",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     997,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.959721914351405,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06902657583725613,
+    "product_size": 490,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121165,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "AGAGTCAGACATTTGGGGGAAC",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     996,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.959588424910976,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06916006527768559,
+    "product_size": 489,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121164,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "AAAACCAAGACACGAAACACCC",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     1466,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.83517268035695,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.19357580983171374,
+    "product_size": 959,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121634,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "AGTCAGACATTTGGGGGAACAA",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     994,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.82320183698664,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.20554665320202048,
+    "product_size": 487,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121162,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "CCGCGTGAACGACTTTTCTTTA",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     1230,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.78078426488241,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.24796422530624795,
+    "product_size": 723,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121398,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "GAGTCAGACATTTGGGGGAACA",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     995,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 60.22476851817538,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.25351700836404234,
+    "product_size": 488,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121163,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CAGGCAGAGTTACTCCGGTAAA",
+    "right_seq": "TCCGAGAGTCAGAGTCAGACAT",
+    "left_pos": [
+     506,
+     22
+    ],
+    "right_pos": [
+     1006,
+     22
+    ],
+    "left_tm": 59.76705931569751,
+    "right_tm": 60.0267287226456,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2596694069480918,
+    "product_size": 501,
+    "amplicon_start": 111120673,
+    "amplicon_end": 111121174,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGGCAGAGTTACTCCGGTAAAC",
+    "right_seq": "TCCGAGAGTCAGAGTCAGACAT",
+    "left_pos": [
+     507,
+     22
+    ],
+    "right_pos": [
+     1006,
+     22
+    ],
+    "left_tm": 59.766814466545725,
+    "right_tm": 60.0267287226456,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.25991425609987573,
+    "product_size": 500,
+    "amplicon_start": 111120674,
+    "amplicon_end": 111121174,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGCAGAGTTACTCCGGTAAACA",
+    "right_seq": "TTAAAGAGAACCTGCCCGAGAG",
+    "left_pos": [
+     508,
+     22
+    ],
+    "right_pos": [
+     1211,
+     22
+    ],
+    "left_tm": 60.02874849018866,
+    "right_tm": 59.766078187815026,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2626703023736354,
+    "product_size": 704,
+    "amplicon_start": 111120675,
+    "amplicon_end": 111121379,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr17:32142448",
+   "chrom": "chr17",
+   "start": 32142448,
+   "end": 32142502,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 18,
+   "exact_units": 16,
+   "interrupt_units": 2,
+   "purity": 88.9,
+   "tract_len": 54.0,
+   "gc": 96.3,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0818\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "TTATTATCGAGTGCCACCTCCG",
+    "right_seq": "GATCCGCACGTCTTTCTTCATG",
+    "left_pos": [
+     172,
+     22
+    ],
+    "right_pos": [
+     1064,
+     22
+    ],
+    "left_tm": 59.964551465838895,
+    "right_tm": 59.97027247448108,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06517605968002727,
+    "product_size": 893,
+    "amplicon_start": 32141820,
+    "amplicon_end": 32142713,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCATTCAAATTCCTGGCCCAAG",
+    "right_seq": "TTCACGCAATCCCTATTGGTCA",
+    "left_pos": [
+     637,
+     22
+    ],
+    "right_pos": [
+     1544,
+     22
+    ],
+    "left_tm": 60.093340919795025,
+    "right_tm": 60.0267287226456,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.12006964244062601,
+    "product_size": 908,
+    "amplicon_start": 32142285,
+    "amplicon_end": 32143193,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CCATTCAAATTCCTGGCCCAAG",
+    "right_seq": "AAAAGGAGGAGAGAAGCTTCGG",
+    "left_pos": [
+     637,
+     22
+    ],
+    "right_pos": [
+     1406,
+     22
+    ],
+    "left_tm": 60.093340919795025,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.12099422288986261,
+    "product_size": 770,
+    "amplicon_start": 32142285,
+    "amplicon_end": 32143055,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGAAAACCATGCAAGCTGATCG",
+    "right_seq": "AAAAGGAGGAGAGAAGCTTCGG",
+    "left_pos": [
+     482,
+     22
+    ],
+    "right_pos": [
+     1406,
+     22
+    ],
+    "left_tm": 60.09511011137357,
+    "right_tm": 60.02765330309484,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.12276341446840888,
+    "product_size": 925,
+    "amplicon_start": 32142130,
+    "amplicon_end": 32143055,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CCATTCAAATTCCTGGCCCAAG",
+    "right_seq": "GATCCGCACGTCTTTCTTCATG",
+    "left_pos": [
+     637,
+     22
+    ],
+    "right_pos": [
+     1064,
+     22
+    ],
+    "left_tm": 60.093340919795025,
+    "right_tm": 59.97027247448108,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.12306844531394745,
+    "product_size": 428,
+    "amplicon_start": 32142285,
+    "amplicon_end": 32142713,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGAAAACCATGCAAGCTGATCG",
+    "right_seq": "GATCCGCACGTCTTTCTTCATG",
+    "left_pos": [
+     482,
+     22
+    ],
+    "right_pos": [
+     1064,
+     22
+    ],
+    "left_tm": 60.09511011137357,
+    "right_tm": 59.97027247448108,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.12483763689249372,
+    "product_size": 583,
+    "amplicon_start": 32142130,
+    "amplicon_end": 32142713,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTGAGAAGATCCCTGCTCTGAG",
+    "right_seq": "AAAAGGAGGAGAGAAGCTTCGG",
+    "left_pos": [
+     529,
+     22
+    ],
+    "right_pos": [
+     1406,
+     22
+    ],
+    "left_tm": 59.89875137443755,
+    "right_tm": 60.02765330309484,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.12890192865728523,
+    "product_size": 878,
+    "amplicon_start": 32142177,
+    "amplicon_end": 32143055,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCATTCAAATTCCTGGCCCAAG",
+    "right_seq": "AAATGCAGAAACCTGACCTTGC",
+    "left_pos": [
+     637,
+     22
+    ],
+    "right_pos": [
+     1616,
+     22
+    ],
+    "left_tm": 60.093340919795025,
+    "right_tm": 59.96365383312758,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.12968708666744533,
+    "product_size": 980,
+    "amplicon_start": 32142285,
+    "amplicon_end": 32143265,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTGAGAAGATCCCTGCTCTGAG",
+    "right_seq": "GATCCGCACGTCTTTCTTCATG",
+    "left_pos": [
+     529,
+     22
+    ],
+    "right_pos": [
+     1064,
+     22
+    ],
+    "left_tm": 59.89875137443755,
+    "right_tm": 59.97027247448108,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.13097615108137006,
+    "product_size": 536,
+    "amplicon_start": 32142177,
+    "amplicon_end": 32142713,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CCATTCAAATTCCTGGCCCAAG",
+    "right_seq": "CAGGGTTCGAAGAGGAAAAGGA",
+    "left_pos": [
+     637,
+     22
+    ],
+    "right_pos": [
+     1421,
+     22
+    ],
+    "left_tm": 60.093340919795025,
+    "right_tm": 59.961442893838694,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.13189802595633182,
+    "product_size": 785,
+    "amplicon_start": 32142285,
+    "amplicon_end": 32143070,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr5:177554486",
+   "chrom": "chr5",
+   "start": 177554486,
+   "end": 177554540,
+   "motif": "GCC",
+   "unit": "CGC",
+   "ulen": 3,
+   "n_units": 18,
+   "exact_units": 15,
+   "interrupt_units": 3,
+   "purity": 83.3,
+   "tract_len": 54.0,
+   "gc": 90.7,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0818\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "ACCTTATTCAAAATGGCGCAGG",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     985,
+     22
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 59.83374561786894,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.1896587530868601,
+    "product_size": 986,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554672,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GAAACCCCACCAAAAACTCCTC",
+    "right_seq": "ACCTTATTCAAAATGGCGCAGG",
+    "left_pos": [
+     1,
+     22
+    ],
+    "right_pos": [
+     985,
+     22
+    ],
+    "left_tm": 59.635675573209255,
+    "right_tm": 59.83374561786894,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.5305788089218026,
+    "product_size": 985,
+    "amplicon_start": 177553687,
+    "amplicon_end": 177554672,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "CCGGGTGGTGACCTTATTCAAA",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     995,
+     22
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 60.55346560040357,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.5768699713593719,
+    "product_size": 996,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554682,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GAAACCCCACCAAAAACTCCTC",
+    "right_seq": "CCGGGTGGTGACCTTATTCAAA",
+    "left_pos": [
+     1,
+     22
+    ],
+    "right_pos": [
+     995,
+     22
+    ],
+    "left_tm": 59.635675573209255,
+    "right_tm": 60.55346560040357,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.9177900271943145,
+    "product_size": 995,
+    "amplicon_start": 177553687,
+    "amplicon_end": 177554682,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "CCGGGTGGTGACCTTATTCAA",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     995,
+     21
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 59.996188196169896,
+    "left_gc": 45.45454545454545,
+    "right_gc": 52.38095238095238,
+    "penalty": 1.0272161747859059,
+    "product_size": 996,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554682,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AAACCCCACCAAAAACTCCTCC",
+    "right_seq": "ACCTTATTCAAAATGGCGCAGG",
+    "left_pos": [
+     2,
+     22
+    ],
+    "right_pos": [
+     985,
+     22
+    ],
+    "left_tm": 60.95777564083039,
+    "right_tm": 59.83374561786894,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 1.124030022961449,
+    "product_size": 984,
+    "amplicon_start": 177553688,
+    "amplicon_end": 177554672,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "TGACCTTATTCAAAATGGCGCAG",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     987,
+     23
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 60.119530517718886,
+    "left_gc": 45.45454545454545,
+    "right_gc": 43.47826086956522,
+    "penalty": 1.142934888674688,
+    "product_size": 988,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554674,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "CTCCGGGTGGTGACCTTATTC",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     997,
+     21
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 60.13449067112509,
+    "left_gc": 45.45454545454545,
+    "right_gc": 57.142857142857146,
+    "penalty": 1.157895042080895,
+    "product_size": 998,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554684,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "CGGGTGGTGACCTTATTCAAAA",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     994,
+     22
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 58.84923305016861,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 1.1741713207871953,
+    "product_size": 995,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554681,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAAACCCCACCAAAAACTCCT",
+    "right_seq": "TGGTGACCTTATTCAAAATGGCG",
+    "left_pos": [
+     0,
+     22
+    ],
+    "right_pos": [
+     990,
+     23
+    ],
+    "left_tm": 60.0234043709558,
+    "right_tm": 59.80757776710817,
+    "left_gc": 45.45454545454545,
+    "right_gc": 43.47826086956522,
+    "penalty": 1.2158266038476313,
+    "product_size": 991,
+    "amplicon_start": 177553686,
+    "amplicon_end": 177554677,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr13:53201088",
+   "chrom": "chr13",
+   "start": 53201088,
+   "end": 53201139,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 13,
+   "interrupt_units": 4,
+   "purity": 76.5,
+   "tract_len": 51.0,
+   "gc": 90.2,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "GTCAGGTTGTACTAGGCGATGG",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1110,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 60.481449270075245,
+    "left_gc": 54.54545454545455,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.6501774549428774,
+    "product_size": 468,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201399,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "GAGCATTGTCTTTCTCGTAGCC",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1196,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 59.39463428550181,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.7740938993658233,
+    "product_size": 554,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201485,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "GGAGCATTGTCTTTCTCGTAGC",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1197,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 59.39463428550181,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.7740938993658233,
+    "product_size": 555,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201486,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "CACCAGCGTCAGGTTGTACTAG",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1117,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 60.671350777866564,
+    "left_gc": 54.54545454545455,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.8400789627341965,
+    "product_size": 475,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201406,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "CATTGTCTTTCTCGTAGCCCAC",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1193,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 59.32663233856533,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.8420958463022998,
+    "product_size": 551,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201482,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "CCTAGTCCTCGTCTTTTGCCTG",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1642,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 60.67531734499016,
+    "left_gc": 54.54545454545455,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.8440455298577945,
+    "product_size": 1000,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201931,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "AGCATTGTCTTTCTCGTAGCCC",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1195,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 60.67819031523402,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.8469185001016513,
+    "product_size": 553,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201484,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "CGTCAGGTTGTACTAGGCGATG",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1111,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 60.79498094977282,
+    "left_gc": 54.54545454545455,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.9637091346404532,
+    "product_size": 469,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201400,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "GGGGTGTTCTCACTCACAGATA",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1245,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 59.167871047971346,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 1.0008571368962862,
+    "product_size": 603,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201534,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGATTACCAGAGTCAGGACACC",
+    "right_seq": "CGGAGCATTGTCTTTCTCGTAG",
+    "left_pos": [
+     643,
+     22
+    ],
+    "right_pos": [
+     1198,
+     22
+    ],
+    "left_tm": 59.83127181513237,
+    "right_tm": 59.14522270506717,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 1.0235054798004626,
+    "product_size": 556,
+    "amplicon_start": 53200931,
+    "amplicon_end": 53201487,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr18:33578455",
+   "chrom": "chr18",
+   "start": 33578455,
+   "end": 33578506,
+   "motif": "GCC",
+   "unit": "CCG",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 96.1,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "CGGACTCCTACACAAGTTCCAA",
+    "right_seq": "CCGCAGAATAACAAAGAGCAGG",
+    "left_pos": [
+     284,
+     22
+    ],
+    "right_pos": [
+     1171,
+     22
+    ],
+    "left_tm": 59.963266874606006,
+    "right_tm": 59.90350408257535,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.13322904281864112,
+    "product_size": 888,
+    "amplicon_start": 33577939,
+    "amplicon_end": 33578827,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGACTCCTACACAAGTTCCAA",
+    "right_seq": "CCCGCAGAATAACAAAGAGCAG",
+    "left_pos": [
+     284,
+     22
+    ],
+    "right_pos": [
+     1172,
+     22
+    ],
+    "left_tm": 59.963266874606006,
+    "right_tm": 59.90350408257535,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.13322904281864112,
+    "product_size": 889,
+    "amplicon_start": 33577939,
+    "amplicon_end": 33578828,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTTAAGGCAGTCCAACAGAGGA",
+    "right_seq": "CCGCAGAATAACAAAGAGCAGG",
+    "left_pos": [
+     191,
+     22
+    ],
+    "right_pos": [
+     1171,
+     22
+    ],
+    "left_tm": 59.961442893838694,
+    "right_tm": 59.90350408257535,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.13505302358595372,
+    "product_size": 981,
+    "amplicon_start": 33577846,
+    "amplicon_end": 33578827,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTTAAGGCAGTCCAACAGAGGA",
+    "right_seq": "CCCGCAGAATAACAAAGAGCAG",
+    "left_pos": [
+     191,
+     22
+    ],
+    "right_pos": [
+     1172,
+     22
+    ],
+    "left_tm": 59.961442893838694,
+    "right_tm": 59.90350408257535,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.13505302358595372,
+    "product_size": 982,
+    "amplicon_start": 33577846,
+    "amplicon_end": 33578828,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTCCAACAGAGGAGAGTAGTGC",
+    "right_seq": "CCGCAGAATAACAAAGAGCAGG",
+    "left_pos": [
+     200,
+     22
+    ],
+    "right_pos": [
+     1171,
+     22
+    ],
+    "left_tm": 60.094441931865276,
+    "right_tm": 59.90350408257535,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.19093784928992363,
+    "product_size": 972,
+    "amplicon_start": 33577855,
+    "amplicon_end": 33578827,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTCCAACAGAGGAGAGTAGTGC",
+    "right_seq": "CCCGCAGAATAACAAAGAGCAG",
+    "left_pos": [
+     200,
+     22
+    ],
+    "right_pos": [
+     1172,
+     22
+    ],
+    "left_tm": 60.094441931865276,
+    "right_tm": 59.90350408257535,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.19093784928992363,
+    "product_size": 973,
+    "amplicon_start": 33577855,
+    "amplicon_end": 33578828,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCAGTCCAACAGAGGAGAGTAG",
+    "right_seq": "CCGCAGAATAACAAAGAGCAGG",
+    "left_pos": [
+     197,
+     22
+    ],
+    "right_pos": [
+     1171,
+     22
+    ],
+    "left_tm": 59.83456251129002,
+    "right_tm": 59.90350408257535,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.2619334061346308,
+    "product_size": 975,
+    "amplicon_start": 33577852,
+    "amplicon_end": 33578827,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GCAGTCCAACAGAGGAGAGTAG",
+    "right_seq": "CCCGCAGAATAACAAAGAGCAG",
+    "left_pos": [
+     197,
+     22
+    ],
+    "right_pos": [
+     1172,
+     22
+    ],
+    "left_tm": 59.83456251129002,
+    "right_tm": 59.90350408257535,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.2619334061346308,
+    "product_size": 976,
+    "amplicon_start": 33577852,
+    "amplicon_end": 33578828,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CGGACTCCTACACAAGTTCCAA",
+    "right_seq": "TCCCGCAGAATAACAAAGAGCA",
+    "left_pos": [
+     284,
+     22
+    ],
+    "right_pos": [
+     1173,
+     22
+    ],
+    "left_tm": 59.963266874606006,
+    "right_tm": 60.2900075784176,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.3267407038115948,
+    "product_size": 890,
+    "amplicon_start": 33577939,
+    "amplicon_end": 33578829,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTTAAGGCAGTCCAACAGAGGA",
+    "right_seq": "TCCCGCAGAATAACAAAGAGCA",
+    "left_pos": [
+     191,
+     22
+    ],
+    "right_pos": [
+     1173,
+     22
+    ],
+    "left_tm": 59.961442893838694,
+    "right_tm": 60.2900075784176,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.3285646845789074,
+    "product_size": 983,
+    "amplicon_start": 33577846,
+    "amplicon_end": 33578829,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr5:61332773",
+   "chrom": "chr5",
+   "start": 61332773,
+   "end": 61332824,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 96.1,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "CCAGAAAGAAAAAGGAGCGAGC",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1475,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 60.0955163288956,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.13212031673458569,
+    "product_size": 814,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333449,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "GCCAGAAAGAAAAAGGAGCGAG",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1476,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 60.0955163288956,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.13212031673458569,
+    "product_size": 815,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333450,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "AGGCGCAAAGAAAACGACATTT",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1647,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 60.22371149268025,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.2603154805192389,
+    "product_size": 986,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333621,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "GTATTCCCCTCCCCTCAAATCG",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1510,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 60.224547830144445,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.261151817983432,
+    "product_size": 849,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333484,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCCGCATAGTCTATTGGTCCTT",
+    "right_seq": "CCAGAAAGAAAAAGGAGCGAGC",
+    "left_pos": [
+     618,
+     22
+    ],
+    "right_pos": [
+     1475,
+     22
+    ],
+    "left_tm": 60.22430536212835,
+    "right_tm": 60.0955163288956,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.31982169102394664,
+    "product_size": 858,
+    "amplicon_start": 61332591,
+    "amplicon_end": 61333449,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCCGCATAGTCTATTGGTCCTT",
+    "right_seq": "GCCAGAAAGAAAAAGGAGCGAG",
+    "left_pos": [
+     618,
+     22
+    ],
+    "right_pos": [
+     1476,
+     22
+    ],
+    "left_tm": 60.22430536212835,
+    "right_tm": 60.0955163288956,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.31982169102394664,
+    "product_size": 859,
+    "amplicon_start": 61332591,
+    "amplicon_end": 61333450,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "CGAGCGGCTTTAAGTGTATTCC",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1525,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 59.71558296521431,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.32102102262467724,
+    "product_size": 864,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333499,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "CCGAGCGGCTTTAAGTGTATTC",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1526,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 59.71558296521431,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.32102102262467724,
+    "product_size": 865,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333500,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "AAAACGACATTTAAACCCCGGG",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1637,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 59.70324819352112,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.33335579431786755,
+    "product_size": 976,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333611,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TGCATGTACTCGTCCTTCAACA",
+    "right_seq": "TCCTGCTGATTCATTTCCCACT",
+    "left_pos": [
+     662,
+     22
+    ],
+    "right_pos": [
+     1206,
+     22
+    ],
+    "left_tm": 59.96339601216101,
+    "right_tm": 59.69024525589805,
+    "left_gc": 45.45454545454545,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.34635873194093847,
+    "product_size": 545,
+    "amplicon_start": 61332635,
+    "amplicon_end": 61333180,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr8:22693357",
+   "chrom": "chr8",
+   "start": 22693357,
+   "end": 22693408,
+   "motif": "GCC",
+   "unit": "GCC",
+   "ulen": 3,
+   "n_units": 17,
+   "exact_units": 14,
+   "interrupt_units": 3,
+   "purity": 82.4,
+   "tract_len": 51.0,
+   "gc": 92.2,
+   "bucket_label": "20-25",
+   "bucket_note": "\u25b3 \u6700\u63a5\u8fd1\uff0817\u62f7\u8d1d\uff1b\u53c2\u8003\u57fa\u56e0\u7ec4\u8be5\u6863\u771f\u5b9e\u6700\u957f22\uff09"
+  },
+  "candidates": [
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "CTCTTTCTAACTGCTGGGGTGT",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     1337,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.960916189841555,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.1404992033782264,
+    "product_size": 610,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693895,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "ATATATGGGCAGCTACGTCACG",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     991,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 60.09470011828387,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19611551150364903,
+    "product_size": 264,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693549,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GAAAAGCATGCGAGAGGGAAAG",
+    "right_seq": "CTCTTTCTAACTGCTGGGGTGT",
+    "left_pos": [
+     494,
+     22
+    ],
+    "right_pos": [
+     1337,
+     22
+    ],
+    "left_tm": 60.159462145711984,
+    "right_tm": 59.960916189841555,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19854595587042922,
+    "product_size": 844,
+    "amplicon_start": 22693051,
+    "amplicon_end": 22693895,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "TTGTGAGGAGCTTCCATTGTGA",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     1046,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.89366185200805,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.20775354121172995,
+    "product_size": 319,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693604,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GAAAAGCATGCGAGAGGGAAAG",
+    "right_seq": "ATATATGGGCAGCTACGTCACG",
+    "left_pos": [
+     494,
+     22
+    ],
+    "right_pos": [
+     991,
+     22
+    ],
+    "left_tm": 60.159462145711984,
+    "right_tm": 60.09470011828387,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.25416226399585184,
+    "product_size": 498,
+    "amplicon_start": 22693051,
+    "amplicon_end": 22693549,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "CGAATCAGAGTGAAGTTGGCAC",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     1585,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.84155074187623,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2598646513435483,
+    "product_size": 858,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22694143,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "CTTTCCCGGGGCTCAGATAAAT",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     966,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 60.15860814152734,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2600235347471198,
+    "product_size": 239,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693524,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GAAAAGCATGCGAGAGGGAAAG",
+    "right_seq": "TTGTGAGGAGCTTCCATTGTGA",
+    "left_pos": [
+     494,
+     22
+    ],
+    "right_pos": [
+     1046,
+     22
+    ],
+    "left_tm": 60.159462145711984,
+    "right_tm": 59.89366185200805,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.26580029370393277,
+    "product_size": 553,
+    "amplicon_start": 22693051,
+    "amplicon_end": 22693604,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "TTGGAGACCACTTGCAAACAAC",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     1316,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.83456251129002,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.26685288192976486,
+    "product_size": 589,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693874,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CGGCCTCAGTATTGATCTCACA",
+    "right_seq": "GTTGGAGACCACTTGCAAACAA",
+    "left_pos": [
+     728,
+     22
+    ],
+    "right_pos": [
+     1317,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.83456251129002,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.26685288192976486,
+    "product_size": 590,
+    "amplicon_start": 22693285,
+    "amplicon_end": 22693875,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr19:47271732",
+   "chrom": "chr19",
+   "start": 47271732,
+   "end": 47271760,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 14,
+   "exact_units": 14,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 28,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "ATGAGGGGGAAGAGGATGAAGA",
+    "right_seq": "TGCTACCTACACACATTCACCC",
+    "left_pos": [
+     396,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.027561336618135,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.049200477570707335,
+    "product_size": 938,
+    "amplicon_start": 47271328,
+    "amplicon_end": 47272266,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAATGAGGGGGAAGAGGATGA",
+    "right_seq": "TGCTACCTACACACATTCACCC",
+    "left_pos": [
+     393,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.027561336618135,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.049200477570707335,
+    "product_size": 941,
+    "amplicon_start": 47271325,
+    "amplicon_end": 47272266,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "ATGAGGGGGAAGAGGATGAAGA",
+    "right_seq": "GTCCAACTGCTACCTACACACA",
+    "left_pos": [
+     396,
+     22
+    ],
+    "right_pos": [
+     1340,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 59.963266874606006,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05837226634656645,
+    "product_size": 945,
+    "amplicon_start": 47271328,
+    "amplicon_end": 47272273,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAATGAGGGGGAAGAGGATGA",
+    "right_seq": "GTCCAACTGCTACCTACACACA",
+    "left_pos": [
+     393,
+     22
+    ],
+    "right_pos": [
+     1340,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 59.963266874606006,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05837226634656645,
+    "product_size": 948,
+    "amplicon_start": 47271325,
+    "amplicon_end": 47272273,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AAGAGAATGAGGGGGAAGAGGA",
+    "right_seq": "TGCTACCTACACACATTCACCC",
+    "left_pos": [
+     390,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 59.95355284849478,
+    "right_tm": 60.027561336618135,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.07400848812335425,
+    "product_size": 944,
+    "amplicon_start": 47271322,
+    "amplicon_end": 47272266,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AAGAGAATGAGGGGGAAGAGGA",
+    "right_seq": "GTCCAACTGCTACCTACACACA",
+    "left_pos": [
+     390,
+     22
+    ],
+    "right_pos": [
+     1340,
+     22
+    ],
+    "left_tm": 59.95355284849478,
+    "right_tm": 59.963266874606006,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.08318027689921337,
+    "product_size": 951,
+    "amplicon_start": 47271322,
+    "amplicon_end": 47272273,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "ATGAGGGGGAAGAGGATGAAGA",
+    "right_seq": "GGGGAATGTCATTGGAGGATGT",
+    "left_pos": [
+     396,
+     22
+    ],
+    "right_pos": [
+     1031,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.09166483949508,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.11330398044765388,
+    "product_size": 636,
+    "amplicon_start": 47271328,
+    "amplicon_end": 47271964,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGAATGAGGGGGAAGAGGATGA",
+    "right_seq": "GGGGAATGTCATTGGAGGATGT",
+    "left_pos": [
+     393,
+     22
+    ],
+    "right_pos": [
+     1031,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.09166483949508,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.11330398044765388,
+    "product_size": 639,
+    "amplicon_start": 47271325,
+    "amplicon_end": 47271964,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ATGAGGGGGAAGAGGATGAAGA",
+    "right_seq": "TATCCGAGCTCACCCTTTTCAC",
+    "left_pos": [
+     396,
+     22
+    ],
+    "right_pos": [
+     1374,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.09365826795488,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.11529740890745188,
+    "product_size": 979,
+    "amplicon_start": 47271328,
+    "amplicon_end": 47272307,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGAATGAGGGGGAAGAGGATGA",
+    "right_seq": "TATCCGAGCTCACCCTTTTCAC",
+    "left_pos": [
+     393,
+     22
+    ],
+    "right_pos": [
+     1374,
+     22
+    ],
+    "left_tm": 60.02163914095257,
+    "right_tm": 60.09365826795488,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.11529740890745188,
+    "product_size": 982,
+    "amplicon_start": 47271325,
+    "amplicon_end": 47272307,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr1:88275021",
+   "chrom": "chr1",
+   "start": 88275021,
+   "end": 88275047,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "ACAGACCTCTTTGCCCTAACAG",
+    "right_seq": "TGGGTTCCACAACAGAAAGACA",
+    "left_pos": [
+     172,
+     22
+    ],
+    "right_pos": [
+     977,
+     22
+    ],
+    "left_tm": 59.960916189841555,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06487690461449347,
+    "product_size": 806,
+    "amplicon_start": 88274393,
+    "amplicon_end": 88275199,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACAGACCTCTTTGCCCTAACAG",
+    "right_seq": "AGGCTGTGAGAATGTGAGACAG",
+    "left_pos": [
+     172,
+     22
+    ],
+    "right_pos": [
+     1060,
+     22
+    ],
+    "left_tm": 59.960916189841555,
+    "right_tm": 60.0282940403564,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0673778505148448,
+    "product_size": 889,
+    "amplicon_start": 88274393,
+    "amplicon_end": 88275282,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TATCCCCAGCATGTGACCTTTC",
+    "right_seq": "TGGGTTCCACAACAGAAAGACA",
+    "left_pos": [
+     267,
+     22
+    ],
+    "right_pos": [
+     977,
+     22
+    ],
+    "left_tm": 60.092429445530115,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.11822253998616361,
+    "product_size": 711,
+    "amplicon_start": 88274488,
+    "amplicon_end": 88275199,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TATCCCCAGCATGTGACCTTTC",
+    "right_seq": "AGGCTGTGAGAATGTGAGACAG",
+    "left_pos": [
+     267,
+     22
+    ],
+    "right_pos": [
+     1060,
+     22
+    ],
+    "left_tm": 60.092429445530115,
+    "right_tm": 60.0282940403564,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.12072348588651494,
+    "product_size": 794,
+    "amplicon_start": 88274488,
+    "amplicon_end": 88275282,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGAACCTTCCAACAGACCTCTT",
+    "right_seq": "TGGGTTCCACAACAGAAAGACA",
+    "left_pos": [
+     161,
+     22
+    ],
+    "right_pos": [
+     977,
+     22
+    ],
+    "left_tm": 59.89331607010587,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.13247702435018027,
+    "product_size": 817,
+    "amplicon_start": 88274382,
+    "amplicon_end": 88275199,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGAACCTTCCAACAGACCTCTT",
+    "right_seq": "AGGCTGTGAGAATGTGAGACAG",
+    "left_pos": [
+     161,
+     22
+    ],
+    "right_pos": [
+     1060,
+     22
+    ],
+    "left_tm": 59.89331607010587,
+    "right_tm": 60.0282940403564,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.1349779702505316,
+    "product_size": 900,
+    "amplicon_start": 88274382,
+    "amplicon_end": 88275282,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CATTATCCCCAGCATGTGACCT",
+    "right_seq": "TGGGTTCCACAACAGAAAGACA",
+    "left_pos": [
+     264,
+     22
+    ],
+    "right_pos": [
+     977,
+     22
+    ],
+    "left_tm": 60.15856383444037,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.1843569288964204,
+    "product_size": 714,
+    "amplicon_start": 88274485,
+    "amplicon_end": 88275199,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CATTATCCCCAGCATGTGACCT",
+    "right_seq": "AGGCTGTGAGAATGTGAGACAG",
+    "left_pos": [
+     264,
+     22
+    ],
+    "right_pos": [
+     1060,
+     22
+    ],
+    "left_tm": 60.15856383444037,
+    "right_tm": 60.0282940403564,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.18685787479677174,
+    "product_size": 797,
+    "amplicon_start": 88274485,
+    "amplicon_end": 88275282,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACAGACCTCTTTGCCCTAACAG",
+    "right_seq": "CAGTTGCATGCTACGTGCTTTA",
+    "left_pos": [
+     172,
+     22
+    ],
+    "right_pos": [
+     1041,
+     22
+    ],
+    "left_tm": 59.960916189841555,
+    "right_tm": 59.84056961791231,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.19851419224613664,
+    "product_size": 870,
+    "amplicon_start": 88274393,
+    "amplicon_end": 88275263,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACAGACCTCTTTGCCCTAACAG",
+    "right_seq": "GTCCAGCTTTAAATGCCGACAG",
+    "left_pos": [
+     172,
+     22
+    ],
+    "right_pos": [
+     858,
+     22
+    ],
+    "left_tm": 59.960916189841555,
+    "right_tm": 60.15951698656676,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.19860079672520214,
+    "product_size": 687,
+    "amplicon_start": 88274393,
+    "amplicon_end": 88275080,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr12:48971838",
+   "chrom": "chr12",
+   "start": 48971838,
+   "end": 48971864,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "TATCCCCCACCTTGCCTAACTA",
+    "right_seq": "TGACGCAAAGAGGAGTGATGAA",
+    "left_pos": [
+     148,
+     22
+    ],
+    "right_pos": [
+     1050,
+     22
+    ],
+    "left_tm": 60.02183719959646,
+    "right_tm": 59.962878550448295,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.05895864914816684,
+    "product_size": 903,
+    "amplicon_start": 48971186,
+    "amplicon_end": 48972089,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TATCCCCCACCTTGCCTAACTA",
+    "right_seq": "AACTGACGCAAAGAGGAGTGAT",
+    "left_pos": [
+     148,
+     22
+    ],
+    "right_pos": [
+     1053,
+     22
+    ],
+    "left_tm": 60.02183719959646,
+    "right_tm": 59.962228289079064,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.05960891051739736,
+    "product_size": 906,
+    "amplicon_start": 48971186,
+    "amplicon_end": 48972092,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CTAAATCTGGGGGCACTCCTTT",
+    "right_seq": "TGACGCAAAGAGGAGTGATGAA",
+    "left_pos": [
+     235,
+     22
+    ],
+    "right_pos": [
+     1050,
+     22
+    ],
+    "left_tm": 60.02494141872518,
+    "right_tm": 59.962878550448295,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.062062868276882455,
+    "product_size": 816,
+    "amplicon_start": 48971273,
+    "amplicon_end": 48972089,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TATCCCCCACCTTGCCTAACTA",
+    "right_seq": "CACCCTGATCTTGGTGGAGAAA",
+    "left_pos": [
+     148,
+     22
+    ],
+    "right_pos": [
+     1073,
+     22
+    ],
+    "left_tm": 60.02183719959646,
+    "right_tm": 59.959721914351405,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.062115285245056384,
+    "product_size": 926,
+    "amplicon_start": 48971186,
+    "amplicon_end": 48972112,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TATCCCCCACCTTGCCTAACTA",
+    "right_seq": "ACCCTGATCTTGGTGGAGAAAC",
+    "left_pos": [
+     148,
+     22
+    ],
+    "right_pos": [
+     1072,
+     22
+    ],
+    "left_tm": 60.02183719959646,
+    "right_tm": 59.959588424910976,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06224877468548584,
+    "product_size": 925,
+    "amplicon_start": 48971186,
+    "amplicon_end": 48972111,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CTAAATCTGGGGGCACTCCTTT",
+    "right_seq": "AACTGACGCAAAGAGGAGTGAT",
+    "left_pos": [
+     235,
+     22
+    ],
+    "right_pos": [
+     1053,
+     22
+    ],
+    "left_tm": 60.02494141872518,
+    "right_tm": 59.962228289079064,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06271312964611298,
+    "product_size": 819,
+    "amplicon_start": 48971273,
+    "amplicon_end": 48972092,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACCTTGCCTAACTACAAGCTCC",
+    "right_seq": "TGACGCAAAGAGGAGTGATGAA",
+    "left_pos": [
+     156,
+     22
+    ],
+    "right_pos": [
+     1050,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.962878550448295,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06422131910903772,
+    "product_size": 895,
+    "amplicon_start": 48971194,
+    "amplicon_end": 48972089,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACCTTGCCTAACTACAAGCTCC",
+    "right_seq": "AACTGACGCAAAGAGGAGTGAT",
+    "left_pos": [
+     156,
+     22
+    ],
+    "right_pos": [
+     1053,
+     22
+    ],
+    "left_tm": 60.02709986955733,
+    "right_tm": 59.962228289079064,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06487158047826824,
+    "product_size": 898,
+    "amplicon_start": 48971194,
+    "amplicon_end": 48972092,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTAAATCTGGGGGCACTCCTTT",
+    "right_seq": "CACCCTGATCTTGGTGGAGAAA",
+    "left_pos": [
+     235,
+     22
+    ],
+    "right_pos": [
+     1073,
+     22
+    ],
+    "left_tm": 60.02494141872518,
+    "right_tm": 59.959721914351405,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.065219504373772,
+    "product_size": 839,
+    "amplicon_start": 48971273,
+    "amplicon_end": 48972112,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTAAATCTGGGGGCACTCCTTT",
+    "right_seq": "ACCCTGATCTTGGTGGAGAAAC",
+    "left_pos": [
+     235,
+     22
+    ],
+    "right_pos": [
+     1072,
+     22
+    ],
+    "left_tm": 60.02494141872518,
+    "right_tm": 59.959588424910976,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06535299381420145,
+    "product_size": 838,
+    "amplicon_start": 48971273,
+    "amplicon_end": 48972111,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr4:61532531",
+   "chrom": "chr4",
+   "start": 61532531,
+   "end": 61532555,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "AGCTTGTATGACTTGGAGTGGG",
+    "right_seq": "CCACTTTCTCTTTGGGTTGCAG",
+    "left_pos": [
+     540,
+     22
+    ],
+    "right_pos": [
+     1151,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.96493392389482,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06188775069813346,
+    "product_size": 612,
+    "amplicon_start": 61532271,
+    "amplicon_end": 61532883,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTTGTATGACTTGGAGTGGGA",
+    "right_seq": "CCACTTTCTCTTTGGGTTGCAG",
+    "left_pos": [
+     541,
+     22
+    ],
+    "right_pos": [
+     1151,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.96493392389482,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06225845767704641,
+    "product_size": 611,
+    "amplicon_start": 61532272,
+    "amplicon_end": 61532883,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTGTGACCTTCAAGAGCTACT",
+    "right_seq": "CCACTTTCTCTTTGGGTTGCAG",
+    "left_pos": [
+     633,
+     22
+    ],
+    "right_pos": [
+     1151,
+     22
+    ],
+    "left_tm": 60.02856703033012,
+    "right_tm": 59.96493392389482,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0636331064353044,
+    "product_size": 519,
+    "amplicon_start": 61532364,
+    "amplicon_end": 61532883,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGCTGTGACCTTCAAGAGCTAC",
+    "right_seq": "CCACTTTCTCTTTGGGTTGCAG",
+    "left_pos": [
+     632,
+     22
+    ],
+    "right_pos": [
+     1151,
+     22
+    ],
+    "left_tm": 60.02856703033012,
+    "right_tm": 59.96493392389482,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.0636331064353044,
+    "product_size": 520,
+    "amplicon_start": 61532363,
+    "amplicon_end": 61532883,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CAGCTGTGACCTTCAAGAGCTA",
+    "right_seq": "CCACTTTCTCTTTGGGTTGCAG",
+    "left_pos": [
+     631,
+     22
+    ],
+    "right_pos": [
+     1151,
+     22
+    ],
+    "left_tm": 60.028657813479924,
+    "right_tm": 59.96493392389482,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06372388958510555,
+    "product_size": 521,
+    "amplicon_start": 61532362,
+    "amplicon_end": 61532883,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGCTTGTATGACTTGGAGTGGG",
+    "right_seq": "TGGCCAGAAACGTCCTTATCAA",
+    "left_pos": [
+     540,
+     22
+    ],
+    "right_pos": [
+     1413,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.96078412290922,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06603755168373482,
+    "product_size": 874,
+    "amplicon_start": 61532271,
+    "amplicon_end": 61533145,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGCTTGTATGACTTGGAGTGGG",
+    "right_seq": "TTGGCCAGAAACGTCCTTATCA",
+    "left_pos": [
+     540,
+     22
+    ],
+    "right_pos": [
+     1414,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.96078412290922,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06603755168373482,
+    "product_size": 875,
+    "amplicon_start": 61532271,
+    "amplicon_end": 61533146,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGCTTGTATGACTTGGAGTGGG",
+    "right_seq": "TCATTGGCCAGAAACGTCCTTA",
+    "left_pos": [
+     540,
+     22
+    ],
+    "right_pos": [
+     1417,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.96078412290922,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06603755168373482,
+    "product_size": 878,
+    "amplicon_start": 61532271,
+    "amplicon_end": 61533149,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTTGTATGACTTGGAGTGGGA",
+    "right_seq": "TGGCCAGAAACGTCCTTATCAA",
+    "left_pos": [
+     541,
+     22
+    ],
+    "right_pos": [
+     1413,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.96078412290922,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06640825866264777,
+    "product_size": 873,
+    "amplicon_start": 61532272,
+    "amplicon_end": 61533145,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCTTGTATGACTTGGAGTGGGA",
+    "right_seq": "TTGGCCAGAAACGTCCTTATCA",
+    "left_pos": [
+     541,
+     22
+    ],
+    "right_pos": [
+     1414,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.96078412290922,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.06640825866264777,
+    "product_size": 874,
+    "amplicon_start": 61532272,
+    "amplicon_end": 61533146,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr2:126245764",
+   "chrom": "chr2",
+   "start": 126245764,
+   "end": 126245790,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 13,
+   "exact_units": 13,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 26,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "TCACGAGGCAGGAGCTATTTTT",
+    "right_seq": "ACTGCATCACTGAACCTCTCTG",
+    "left_pos": [
+     305,
+     22
+    ],
+    "right_pos": [
+     1260,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 60.0282940403564,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.05548642192826492,
+    "product_size": 956,
+    "amplicon_start": 126245269,
+    "amplicon_end": 126246225,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTCAGATAACTCCGAGTGTCCC",
+    "right_seq": "ACTGCATCACTGAACCTCTCTG",
+    "left_pos": [
+     650,
+     22
+    ],
+    "right_pos": [
+     1260,
+     22
+    ],
+    "left_tm": 59.900573008734455,
+    "right_tm": 60.0282940403564,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.12772103162194526,
+    "product_size": 611,
+    "amplicon_start": 126245614,
+    "amplicon_end": 126246225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACGAGGCAGGAGCTATTTTT",
+    "right_seq": "TCTGCGTCCTGGCTTACTTATC",
+    "left_pos": [
+     305,
+     22
+    ],
+    "right_pos": [
+     1242,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.899084324417004,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.1281080571548614,
+    "product_size": 938,
+    "amplicon_start": 126245269,
+    "amplicon_end": 126246207,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TCACGAGGCAGGAGCTATTTTT",
+    "right_seq": "CTCTGCGTCCTGGCTTACTTAT",
+    "left_pos": [
+     305,
+     22
+    ],
+    "right_pos": [
+     1243,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.898417643553444,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.12877473801842143,
+    "product_size": 939,
+    "amplicon_start": 126245269,
+    "amplicon_end": 126246208,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGGCCACATTTAGAAAACCCCT",
+    "right_seq": "ACTGCATCACTGAACCTCTCTG",
+    "left_pos": [
+     383,
+     22
+    ],
+    "right_pos": [
+     1260,
+     22
+    ],
+    "left_tm": 59.888207830486465,
+    "right_tm": 60.0282940403564,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.14008620986993492,
+    "product_size": 878,
+    "amplicon_start": 126245347,
+    "amplicon_end": 126246225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACGAGGCAGGAGCTATTTTT",
+    "right_seq": "GGATTCCCTGGTCCTTTAGCTC",
+    "left_pos": [
+     305,
+     22
+    ],
+    "right_pos": [
+     1208,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 60.158740116799095,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.18593249837095982,
+    "product_size": 904,
+    "amplicon_start": 126245269,
+    "amplicon_end": 126246173,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "CAGATAACTCCGAGTGTCCCAC",
+    "right_seq": "ACTGCATCACTGAACCTCTCTG",
+    "left_pos": [
+     652,
+     22
+    ],
+    "right_pos": [
+     1260,
+     22
+    ],
+    "left_tm": 60.1592262266185,
+    "right_tm": 60.0282940403564,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.1875202669749001,
+    "product_size": 609,
+    "amplicon_start": 126245616,
+    "amplicon_end": 126246225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ATCACGAGGCAGGAGCTATTTT",
+    "right_seq": "ACTGCATCACTGAACCTCTCTG",
+    "left_pos": [
+     304,
+     22
+    ],
+    "right_pos": [
+     1260,
+     22
+    ],
+    "left_tm": 59.82855204806043,
+    "right_tm": 60.0282940403564,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.19974199229596934,
+    "product_size": 957,
+    "amplicon_start": 126245268,
+    "amplicon_end": 126246225,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTCAGATAACTCCGAGTGTCCC",
+    "right_seq": "TCTGCGTCCTGGCTTACTTATC",
+    "left_pos": [
+     650,
+     22
+    ],
+    "right_pos": [
+     1242,
+     22
+    ],
+    "left_tm": 59.900573008734455,
+    "right_tm": 59.899084324417004,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.20034266684854174,
+    "product_size": 593,
+    "amplicon_start": 126245614,
+    "amplicon_end": 126246207,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCACGAGGCAGGAGCTATTTTT",
+    "right_seq": "CCTGGATTCCCTGGTCCTTTAG",
+    "left_pos": [
+     305,
+     22
+    ],
+    "right_pos": [
+     1211,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.8264311538735,
+    "left_gc": 45.45454545454545,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.20076122769836502,
+    "product_size": 907,
+    "amplicon_start": 126245269,
+    "amplicon_end": 126246176,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr1:83850240",
+   "chrom": "chr1",
+   "start": 83850240,
+   "end": 83850264,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "ATCTCCCTCTGGCTTTCCTAGT",
+    "right_seq": "ACTTCCCACCCTCATCACATTC",
+    "left_pos": [
+     538,
+     22
+    ],
+    "right_pos": [
+     1448,
+     22
+    ],
+    "left_tm": 60.02252660019025,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.04841376025359523,
+    "product_size": 911,
+    "amplicon_start": 83849978,
+    "amplicon_end": 83850889,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "ATCTCCCTCTGGCTTTCCTAGT",
+    "right_seq": "GACTTCCCACCCTCATCACATT",
+    "left_pos": [
+     538,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 60.02252660019025,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.04841376025359523,
+    "product_size": 912,
+    "amplicon_start": 83849978,
+    "amplicon_end": 83850890,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TGCAGGGTCTATTTGTGGGTAC",
+    "right_seq": "AGATAGTTCCCTGAGCCACTCT",
+    "left_pos": [
+     689,
+     22
+    ],
+    "right_pos": [
+     1575,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 60.023501309874575,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05013697009923135,
+    "product_size": 887,
+    "amplicon_start": 83850129,
+    "amplicon_end": 83851016,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCAGGGTCTATTTGTGGGTAC",
+    "right_seq": "ACTTCCCACCCTCATCACATTC",
+    "left_pos": [
+     689,
+     22
+    ],
+    "right_pos": [
+     1448,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05252282028800437,
+    "product_size": 760,
+    "amplicon_start": 83850129,
+    "amplicon_end": 83850889,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TGCAGGGTCTATTTGTGGGTAC",
+    "right_seq": "GACTTCCCACCCTCATCACATT",
+    "left_pos": [
+     689,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.05252282028800437,
+    "product_size": 761,
+    "amplicon_start": 83850129,
+    "amplicon_end": 83850890,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACCTCCTGTGATCCGCATATTC",
+    "right_seq": "AGATAGTTCCCTGAGCCACTCT",
+    "left_pos": [
+     752,
+     22
+    ],
+    "right_pos": [
+     1575,
+     22
+    ],
+    "left_tm": 59.962228289079064,
+    "right_tm": 60.023501309874575,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.061273020795511,
+    "product_size": 824,
+    "amplicon_start": 83850192,
+    "amplicon_end": 83851016,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACCTCCTGTGATCCGCATATTC",
+    "right_seq": "ACTTCCCACCCTCATCACATTC",
+    "left_pos": [
+     752,
+     22
+    ],
+    "right_pos": [
+     1448,
+     22
+    ],
+    "left_tm": 59.962228289079064,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06365887098428402,
+    "product_size": 697,
+    "amplicon_start": 83850192,
+    "amplicon_end": 83850889,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACCTCCTGTGATCCGCATATTC",
+    "right_seq": "GACTTCCCACCCTCATCACATT",
+    "left_pos": [
+     752,
+     22
+    ],
+    "right_pos": [
+     1449,
+     22
+    ],
+    "left_tm": 59.962228289079064,
+    "right_tm": 60.02588716006335,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06365887098428402,
+    "product_size": 698,
+    "amplicon_start": 83850192,
+    "amplicon_end": 83850890,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTACTTCACAGCCCCTAACTCC",
+    "right_seq": "AGATAGTTCCCTGAGCCACTCT",
+    "left_pos": [
+     707,
+     22
+    ],
+    "right_pos": [
+     1575,
+     22
+    ],
+    "left_tm": 60.09360553211587,
+    "right_tm": 60.023501309874575,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.11710684199044863,
+    "product_size": 869,
+    "amplicon_start": 83850147,
+    "amplicon_end": 83851016,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GGTACTTCACAGCCCCTAACTC",
+    "right_seq": "AGATAGTTCCCTGAGCCACTCT",
+    "left_pos": [
+     706,
+     22
+    ],
+    "right_pos": [
+     1575,
+     22
+    ],
+    "left_tm": 60.09360553211587,
+    "right_tm": 60.023501309874575,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.11710684199044863,
+    "product_size": 870,
+    "amplicon_start": 83850146,
+    "amplicon_end": 83851016,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr10:104587499",
+   "chrom": "chr10",
+   "start": 104587499,
+   "end": 104587523,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "AGGAGCGGTGCTTGAAGAATAA",
+    "right_seq": "TTGAGCGGCATTGTTTTGCTTA",
+    "left_pos": [
+     559,
+     22
+    ],
+    "right_pos": [
+     1373,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.96480658653718,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.062385795034686,
+    "product_size": 815,
+    "amplicon_start": 104587258,
+    "amplicon_end": 104588073,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TTTTCCTCCATCCTCAGCTCAC",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     13,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.95891857987368,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06790309471927003,
+    "product_size": 987,
+    "amplicon_start": 104586712,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "TGTCTTTTCCTCCATCCTCAGC",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     9,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 60.02682167459295,
+    "right_tm": 59.95891857987368,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.06790309471927003,
+    "product_size": 991,
+    "amplicon_start": 104586708,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGGAGCGGTGCTTGAAGAATAA",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     559,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 60.027192381571865,
+    "right_tm": 59.95891857987368,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.06827380169818298,
+    "product_size": 441,
+    "amplicon_start": 104587258,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AAGACCTCACTTTCTCCTGCAG",
+    "right_seq": "TTGAGCGGCATTGTTTTGCTTA",
+    "left_pos": [
+     401,
+     22
+    ],
+    "right_pos": [
+     1373,
+     22
+    ],
+    "left_tm": 59.96170531148135,
+    "right_tm": 59.96480658653718,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.07348810198146793,
+    "product_size": 973,
+    "amplicon_start": 104587100,
+    "amplicon_end": 104588073,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "ACAGATGAGCAAGGTACAGCAA",
+    "right_seq": "TTGAGCGGCATTGTTTTGCTTA",
+    "left_pos": [
+     645,
+     22
+    ],
+    "right_pos": [
+     1373,
+     22
+    ],
+    "left_tm": 59.96104810012247,
+    "right_tm": 59.96480658653718,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.07414531334035246,
+    "product_size": 729,
+    "amplicon_start": 104587344,
+    "amplicon_end": 104588073,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACAGATGAGCAAGGTACAGCA",
+    "right_seq": "TTGAGCGGCATTGTTTTGCTTA",
+    "left_pos": [
+     644,
+     22
+    ],
+    "right_pos": [
+     1373,
+     22
+    ],
+    "left_tm": 59.96104810012247,
+    "right_tm": 59.96480658653718,
+    "left_gc": 45.45454545454545,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.07414531334035246,
+    "product_size": 730,
+    "amplicon_start": 104587343,
+    "amplicon_end": 104588073,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AAGACCTCACTTTCTCCTGCAG",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     401,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 59.96170531148135,
+    "right_tm": 59.95891857987368,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.07937610864496492,
+    "product_size": 599,
+    "amplicon_start": 104587100,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACAGATGAGCAAGGTACAGCAA",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     645,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 59.96104810012247,
+    "right_tm": 59.95891857987368,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.08003332000384944,
+    "product_size": 355,
+    "amplicon_start": 104587344,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AACAGATGAGCAAGGTACAGCA",
+    "right_seq": "CCATCCCAACCAGTTAGTTCCA",
+    "left_pos": [
+     644,
+     22
+    ],
+    "right_pos": [
+     999,
+     22
+    ],
+    "left_tm": 59.96104810012247,
+    "right_tm": 59.95891857987368,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.08003332000384944,
+    "product_size": 356,
+    "amplicon_start": 104587343,
+    "amplicon_end": 104587699,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr17:47351304",
+   "chrom": "chr17",
+   "start": 47351304,
+   "end": 47351328,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "GTACACATTTGGCTCCCACCTA",
+    "right_seq": "CGAAAGCACAAGCAACAACAAC",
+    "left_pos": [
+     610,
+     22
+    ],
+    "right_pos": [
+     1327,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 59.972073877404,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.054561782820655935,
+    "product_size": 718,
+    "amplicon_start": 47351114,
+    "amplicon_end": 47351832,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GTACACATTTGGCTCCCACCTA",
+    "right_seq": "AGAACTCGAAAGCACAAGCAAC",
+    "left_pos": [
+     610,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 59.967822266104406,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.058813394120249995,
+    "product_size": 724,
+    "amplicon_start": 47351114,
+    "amplicon_end": 47351838,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGTTCTTATGCTCGGTCCTTGG",
+    "right_seq": "CGAAAGCACAAGCAACAACAAC",
+    "left_pos": [
+     375,
+     22
+    ],
+    "right_pos": [
+     1327,
+     22
+    ],
+    "left_tm": 60.09344695178828,
+    "right_tm": 59.972073877404,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.12137307438428024,
+    "product_size": 953,
+    "amplicon_start": 47350879,
+    "amplicon_end": 47351832,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTTCTTATGCTCGGTCCTTGGA",
+    "right_seq": "CGAAAGCACAAGCAACAACAAC",
+    "left_pos": [
+     376,
+     22
+    ],
+    "right_pos": [
+     1327,
+     22
+    ],
+    "left_tm": 60.09365826795488,
+    "right_tm": 59.972073877404,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.1215843905508791,
+    "product_size": 952,
+    "amplicon_start": 47350880,
+    "amplicon_end": 47351832,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTACACATTTGGCTCCCACCTA",
+    "right_seq": "TCGAAAGCACAAGCAACAACAA",
+    "left_pos": [
+     610,
+     22
+    ],
+    "right_pos": [
+     1328,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 60.095007969109645,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.12164362933430084,
+    "product_size": 719,
+    "amplicon_start": 47351114,
+    "amplicon_end": 47351833,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGTTCTTATGCTCGGTCCTTGG",
+    "right_seq": "AGAACTCGAAAGCACAAGCAAC",
+    "left_pos": [
+     375,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 60.09344695178828,
+    "right_tm": 59.967822266104406,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.1256246856838743,
+    "product_size": 959,
+    "amplicon_start": 47350879,
+    "amplicon_end": 47351838,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTTCTTATGCTCGGTCCTTGGA",
+    "right_seq": "AGAACTCGAAAGCACAAGCAAC",
+    "left_pos": [
+     376,
+     22
+    ],
+    "right_pos": [
+     1333,
+     22
+    ],
+    "left_tm": 60.09365826795488,
+    "right_tm": 59.967822266104406,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.12583600185047317,
+    "product_size": 958,
+    "amplicon_start": 47350880,
+    "amplicon_end": 47351838,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTACACATTTGGCTCCCACCTA",
+    "right_seq": "CACCTGTAGTCCCAGCTACATG",
+    "left_pos": [
+     610,
+     22
+    ],
+    "right_pos": [
+     1542,
+     22
+    ],
+    "left_tm": 60.026635660224656,
+    "right_tm": 60.15904264750321,
+    "left_gc": 50.0,
+    "right_gc": 54.54545454545455,
+    "penalty": 0.1856783077278692,
+    "product_size": 933,
+    "amplicon_start": 47351114,
+    "amplicon_end": 47352047,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "AGTTCTTATGCTCGGTCCTTGG",
+    "right_seq": "TCGAAAGCACAAGCAACAACAA",
+    "left_pos": [
+     375,
+     22
+    ],
+    "right_pos": [
+     1328,
+     22
+    ],
+    "left_tm": 60.09344695178828,
+    "right_tm": 60.095007969109645,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.18845492089792515,
+    "product_size": 954,
+    "amplicon_start": 47350879,
+    "amplicon_end": 47351833,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   },
+   {
+    "left_seq": "GTTCTTATGCTCGGTCCTTGGA",
+    "right_seq": "TCGAAAGCACAAGCAACAACAA",
+    "left_pos": [
+     376,
+     22
+    ],
+    "right_pos": [
+     1328,
+     22
+    ],
+    "left_tm": 60.09365826795488,
+    "right_tm": 60.095007969109645,
+    "left_gc": 50.0,
+    "right_gc": 40.90909090909091,
+    "penalty": 0.188666237064524,
+    "product_size": 953,
+    "amplicon_start": 47350880,
+    "amplicon_end": 47351833,
+    "product_range_used": [
+     200,
+     1000
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr5:139652147",
+   "chrom": "chr5",
+   "start": 139652147,
+   "end": 139652171,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "AGGGTGGAGGAATGAGGGAATA",
+    "right_seq": "TTTTGTGGTCTGGTGAGTTCCA",
+    "left_pos": [
+     385,
+     22
+    ],
+    "right_pos": [
+     935,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.046835133927004335,
+    "product_size": 551,
+    "amplicon_start": 139651732,
+    "amplicon_end": 139652283,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TAGGGTGGAGGAATGAGGGAAT",
+    "right_seq": "TTTTGTGGTCTGGTGAGTTCCA",
+    "left_pos": [
+     384,
+     22
+    ],
+    "right_pos": [
+     935,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.046835133927004335,
+    "product_size": 552,
+    "amplicon_start": 139651731,
+    "amplicon_end": 139652283,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ATAGGGTGGAGGAATGAGGGAA",
+    "right_seq": "TTTTGTGGTCTGGTGAGTTCCA",
+    "left_pos": [
+     383,
+     22
+    ],
+    "right_pos": [
+     935,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.046835133927004335,
+    "product_size": 553,
+    "amplicon_start": 139651730,
+    "amplicon_end": 139652283,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGGGTGGAGGAATGAGGGAATA",
+    "right_seq": "CAGATTCCCACATCCCAGAACA",
+    "left_pos": [
+     385,
+     22
+    ],
+    "right_pos": [
+     1193,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02598111340643,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.047023152877386565,
+    "product_size": 809,
+    "amplicon_start": 139651732,
+    "amplicon_end": 139652541,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TAGGGTGGAGGAATGAGGGAAT",
+    "right_seq": "CAGATTCCCACATCCCAGAACA",
+    "left_pos": [
+     384,
+     22
+    ],
+    "right_pos": [
+     1193,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02598111340643,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.047023152877386565,
+    "product_size": 810,
+    "amplicon_start": 139651731,
+    "amplicon_end": 139652541,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ATAGGGTGGAGGAATGAGGGAA",
+    "right_seq": "CAGATTCCCACATCCCAGAACA",
+    "left_pos": [
+     383,
+     22
+    ],
+    "right_pos": [
+     1193,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02598111340643,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.047023152877386565,
+    "product_size": 811,
+    "amplicon_start": 139651730,
+    "amplicon_end": 139652541,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "AGGGTGGAGGAATGAGGGAATA",
+    "right_seq": "TCAAGGACACTTCACACACACA",
+    "left_pos": [
+     385,
+     22
+    ],
+    "right_pos": [
+     878,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.048695342565793,
+    "product_size": 494,
+    "amplicon_start": 139651732,
+    "amplicon_end": 139652226,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TAGGGTGGAGGAATGAGGGAAT",
+    "right_seq": "TCAAGGACACTTCACACACACA",
+    "left_pos": [
+     384,
+     22
+    ],
+    "right_pos": [
+     878,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.048695342565793,
+    "product_size": 495,
+    "amplicon_start": 139651731,
+    "amplicon_end": 139652226,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ATAGGGTGGAGGAATGAGGGAA",
+    "right_seq": "TCAAGGACACTTCACACACACA",
+    "left_pos": [
+     383,
+     22
+    ],
+    "right_pos": [
+     878,
+     22
+    ],
+    "left_tm": 60.021042039470956,
+    "right_tm": 60.02765330309484,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.048695342565793,
+    "product_size": 496,
+    "amplicon_start": 139651730,
+    "amplicon_end": 139652226,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACTTTCCAGGTTGCAGGATAGG",
+    "right_seq": "TTTTGTGGTCTGGTGAGTTCCA",
+    "left_pos": [
+     366,
+     22
+    ],
+    "right_pos": [
+     935,
+     22
+    ],
+    "left_tm": 60.02588716006335,
+    "right_tm": 60.02579309445605,
+    "left_gc": 50.0,
+    "right_gc": 45.45454545454545,
+    "penalty": 0.05168025451939684,
+    "product_size": 570,
+    "amplicon_start": 139651713,
+    "amplicon_end": 139652283,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ },
+ {
+  "locus": {
+   "id": "chr16:73070915",
+   "chrom": "chr16",
+   "start": 73070915,
+   "end": 73070939,
+   "motif": "GC",
+   "unit": "GC",
+   "ulen": 2,
+   "n_units": 12,
+   "exact_units": 12,
+   "interrupt_units": 0,
+   "purity": 100.0,
+   "tract_len": 24,
+   "gc": 100.0,
+   "bucket_label": "GC\u5bb6\u65cf\u53c2\u8003\u6700\u957f\u6863\uff08<20\uff09",
+   "bucket_note": "\u53c2\u8003\u57fa\u56e0\u7ec4\u4e0d\u5b58\u5728 \u226520 \u62f7\u8d1d\u7684 (GC)n\uff08\u5168\u57fa\u56e0\u7ec4\u6700\u957f14\u62f7\u8d1d\uff09\uff1b\u672c\u884c\u4e3a\u8be5\u5bb6\u65cf\u6700\u957f\u771f\u5b9e\u4f4d\u70b9\u4e4b\u4e00"
+  },
+  "candidates": [
+   {
+    "left_seq": "ACGCCTTCCACCACTTATTTCT",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     710,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 59.96012142867937,
+    "right_tm": 59.90188325372395,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.13799531759667616,
+    "product_size": 400,
+    "amplicon_start": 73070825,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACGCCTTCCACCACTTATTTCT",
+    "right_seq": "CCCTGATAGAATGAGCAGCAGT",
+    "left_pos": [
+     710,
+     22
+    ],
+    "right_pos": [
+     1406,
+     22
+    ],
+    "left_tm": 59.96012142867937,
+    "right_tm": 59.89554900987321,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.14432956144742093,
+    "product_size": 697,
+    "amplicon_start": 73070825,
+    "amplicon_end": 73071522,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACGCCTTCCACCACTTATTTCT",
+    "right_seq": "GAGCAGGAAATTGAATGGCTGG",
+    "left_pos": [
+     710,
+     22
+    ],
+    "right_pos": [
+     1115,
+     22
+    ],
+    "left_tm": 59.96012142867937,
+    "right_tm": 60.159141843804605,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.19902041512523283,
+    "product_size": 406,
+    "amplicon_start": 73070825,
+    "amplicon_end": 73071231,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "ACGCCTTCCACCACTTATTTCT",
+    "right_seq": "GGAGCAGGAAATTGAATGGCTG",
+    "left_pos": [
+     710,
+     22
+    ],
+    "right_pos": [
+     1116,
+     22
+    ],
+    "left_tm": 59.96012142867937,
+    "right_tm": 60.159141843804605,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.19902041512523283,
+    "product_size": 407,
+    "amplicon_start": 73070825,
+    "amplicon_end": 73071232,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTCTCTCTCTCTCTCTCTCGCA",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     596,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.90188325372395,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.1995321394958296,
+    "product_size": 514,
+    "amplicon_start": 73070711,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CTCTCTCTCTCTCTCTCTCGCA",
+    "right_seq": "CCCTGATAGAATGAGCAGCAGT",
+    "left_pos": [
+     596,
+     22
+    ],
+    "right_pos": [
+     1406,
+     22
+    ],
+    "left_tm": 59.89858460678022,
+    "right_tm": 59.89554900987321,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.20586638334657437,
+    "product_size": 811,
+    "amplicon_start": 73070711,
+    "amplicon_end": 73071522,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "GCCCAAGACACTCATAGCATCT",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     250,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 60.15884179421607,
+    "right_tm": 59.90188325372395,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.2569585404921213,
+    "product_size": 860,
+    "amplicon_start": 73070365,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TTGTTTTCTTTTCCCCTTGCGG",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     758,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 60.15902841015583,
+    "right_tm": 59.90188325372395,
+    "left_gc": 45.45454545454545,
+    "right_gc": 50.0,
+    "penalty": 0.25714515643187497,
+    "product_size": 352,
+    "amplicon_start": 73070873,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "TCTCTCTCTCTCTCTCTCGCAC",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     597,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 60.159099430483536,
+    "right_tm": 59.90188325372395,
+    "left_gc": 54.54545454545455,
+    "right_gc": 50.0,
+    "penalty": 0.2572161767595844,
+    "product_size": 513,
+    "amplicon_start": 73070712,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   },
+   {
+    "left_seq": "CACGCCTTCCACCACTTATTTC",
+    "right_seq": "GAAATTGAATGGCTGGACTCCG",
+    "left_pos": [
+     709,
+     22
+    ],
+    "right_pos": [
+     1109,
+     22
+    ],
+    "left_tm": 59.838391191562266,
+    "right_tm": 59.90188325372395,
+    "left_gc": 50.0,
+    "right_gc": 50.0,
+    "penalty": 0.259725554713782,
+    "product_size": 401,
+    "amplicon_start": 73070824,
+    "amplicon_end": 73071225,
+    "product_range_used": [
+     250,
+     900
+    ]
+   }
+  ],
+  "status": "ok"
+ }
+]

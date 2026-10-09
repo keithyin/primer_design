@@ -31,9 +31,9 @@
 - [INFO] #19 chr2:126245765 Ensembl=ENSG00000290113（无符号），UCSC RefSeq 重叠基因：[]
 - [INFO] #21 chr10:104587500 Ensembl=ENSG00000237761（无符号），UCSC RefSeq 重叠基因：[]
 - [PASS] (E) UCSC RefSeq 与 Ensembl 注释交叉核对
-- [INFO] 基因符号直接匹配 24/24
+- [INFO] 注释核对：24/24 行与 RefSeq 无矛盾，其中 17/24 行为基因符号直接匹配；其余为 RefSeq 无模型或仅有边界差异（见上列 INFO）
 ## D. 全基因组特异性独立重扫（numpy 滚动哈希 vs grep -F）
 - [PASS] (D1a) 全长脱靶计数：grep 与 numpy 两种实现完全一致（48/48）
 - [INFO] 3'-15mer 脱靶计数：7/48 条 grep 因非重叠匹配语义少计（numpy 按位置计数为准），全部满足 numpy ≥ grep，方向与预期一致
 - [PASS] (D1b) 3'-15mer 计数关系 numpy ≥ grep（grep -o 非重叠语义）
-- [INFO] 扫描范围：455 个 contig，3.21 Gbp（正链编码，模式含正反两向）
+- [INFO] 扫描范围：25 个 contig，3.09 Gbp（正链编码，模式含正反两向）

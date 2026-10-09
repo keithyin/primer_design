@@ -11,7 +11,8 @@ import os
 import subprocess
 import sys
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 GENOME_ONE = os.path.join(BASE, "data", "hg38_oneline")
 RC = str.maketrans("ACGT", "TGCA")
 

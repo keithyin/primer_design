@@ -1,0 +1,209 @@
+{
+ "configs": [
+  {
+   "config": "seed15_mm3",
+   "seed": 15,
+   "max_mismatches": 3,
+   "sites_total": 83,
+   "sites_max_per_pair": 14,
+   "sites_median_per_pair": 2,
+   "putative_offtarget_products": 0
+  },
+  {
+   "config": "seed12_mm4",
+   "seed": 12,
+   "max_mismatches": 4,
+   "sites_total": 855,
+   "sites_max_per_pair": 282,
+   "sites_median_per_pair": 15,
+   "putative_offtarget_products": 0
+  },
+  {
+   "config": "seed10_mm6",
+   "seed": 10,
+   "max_mismatches": 6,
+   "sites_total": 20626,
+   "sites_max_per_pair": 3524,
+   "sites_median_per_pair": 577,
+   "putative_offtarget_products": 0
+  }
+ ],
+ "product_range": [
+  100,
+  3000
+ ],
+ "on_target_found": {
+  "1": {
+   "gene": "FMR1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 723,
+   "expected_len": 723
+  },
+  "2": {
+   "gene": "AFF2",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 782,
+   "expected_len": 782
+  },
+  "3": {
+   "gene": "ENSG00000303381",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 338,
+   "expected_len": 338
+  },
+  "4": {
+   "gene": "CARM1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 878,
+   "expected_len": 878
+  },
+  "5": {
+   "gene": "GIGYF1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 723,
+   "expected_len": 723
+  },
+  "6": {
+   "gene": "HMGB3",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 935,
+   "expected_len": 935
+  },
+  "7": {
+   "gene": "TMEM185A",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 990,
+   "expected_len": 990
+  },
+  "8": {
+   "gene": "BCL2L11",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 489,
+   "expected_len": 489
+  },
+  "9": {
+   "gene": "RHOT1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 925,
+   "expected_len": 925
+  },
+  "10": {
+   "gene": "FAM193B",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 984,
+   "expected_len": 984
+  },
+  "11": {
+   "gene": "PCDH8P1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 475,
+   "expected_len": 475
+  },
+  "12": {
+   "gene": "ASXL3",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 890,
+   "expected_len": 890
+  },
+  "13": {
+   "gene": "ZSWIM6",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 849,
+   "expected_len": 849
+  },
+  "14": {
+   "gene": "EGR3",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 498,
+   "expected_len": 498
+  },
+  "15": {
+   "gene": "CCDC9",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 951,
+   "expected_len": 951
+  },
+  "16": {
+   "gene": "PKN2-AS1",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 687,
+   "expected_len": 687
+  },
+  "17": {
+   "gene": "WNT10B",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 819,
+   "expected_len": 819
+  },
+  "18": {
+   "gene": "ADGRL3",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 874,
+   "expected_len": 874
+  },
+  "19": {
+   "gene": "ENSG00000290113",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 593,
+   "expected_len": 593
+  },
+  "20": {
+   "gene": "LINC01725",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 697,
+   "expected_len": 697
+  },
+  "21": {
+   "gene": "ENSG00000237761",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 356,
+   "expected_len": 356
+  },
+  "22": {
+   "gene": "EFCAB13",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 958,
+   "expected_len": 958
+  },
+  "23": {
+   "gene": "CXXC5",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 570,
+   "expected_len": 570
+  },
+  "24": {
+   "gene": "ZFHX3",
+   "n": 1,
+   "coord_match": true,
+   "product_len": 352,
+   "expected_len": 352
+  }
+ },
+ "scanned_files": 25,
+ "genome_dir": "/root/projects/primer_design/data/hg38_oneline",
+ "scanned_bp": 3088286401,
+ "elapsed_s": 567.5
+}

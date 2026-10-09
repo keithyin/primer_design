@@ -14,7 +14,8 @@ import re
 import sys
 from collections import Counter
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 OUT = os.path.join(BASE, "data", "dense_scan.tsv")
 
@@ -82,9 +83,10 @@ def walk(seq, i, unit, direction, max_streak=2):
 
 
 def bucket(n):
+    # cutoffs must match 09_build_panel.py / 13_repeat_scan_clean.py
     if n < 25:
         return "20-25"
-    if n < 24:
+    if n < 30:
         return "25-30"
     return ">30"
 

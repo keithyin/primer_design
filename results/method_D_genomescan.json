@@ -1,7 +1,7 @@
 {
- "scanned_files": 455,
- "scanned_bp": 3209286105,
- "elapsed_s": 109.4,
+ "scanned_files": 25,
+ "scanned_bp": 3088286401,
+ "elapsed_s": 207.9,
  "rows": [
   {
    "no": 1,
@@ -84,8 +84,8 @@
    "rev": {
     "genome_full_hits": 1,
     "full_off": 0,
-    "end15_hits": 39,
-    "end15_off": 34
+    "end15_hits": 38,
+    "end15_off": 33
    }
   },
   {
@@ -248,8 +248,8 @@
    "fwd": {
     "genome_full_hits": 1,
     "full_off": 0,
-    "end15_hits": 41,
-    "end15_off": 39
+    "end15_hits": 40,
+    "end15_off": 38
    },
    "rev": {
     "genome_full_hits": 1,

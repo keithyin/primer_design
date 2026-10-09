@@ -11,7 +11,8 @@ import sys
 
 import primer3
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 
 RC = str.maketrans("ACGT", "TGCA")
@@ -33,8 +34,21 @@ GLOBAL_ARGS = {
     "PRIMER_MIN_GC": 35.0, "PRIMER_OPT_GC": 50.0, "PRIMER_MAX_GC": 65.0,
     "PRIMER_SALT_MONOVALENT": 50.0, "PRIMER_SALT_DIVALENT": 1.5,
     "PRIMER_DNA_CONC": 50.0,
-    "PRIMER_MAX_SELF_ANY": 45.0, "PRIMER_MAX_SELF_END": 35.0,
-    "PRIMER_MAX_HAIRPIN": 45.0,
+    # --- oligo self-structure constraints -------------------------------
+    # primer3-py runs with thermodynamic oligo alignment ON, so the plain
+    # PRIMER_MAX_SELF_ANY / _SELF_END keys are INERT: only the _TH family is
+    # consulted. PRIMER_MAX_HAIRPIN does not exist as a key at all (only
+    # PRIMER_MAX_HAIRPIN_TH does) and unknown keys are silently ignored.
+    # The values below are primer3's own defaults (libprimer3.c:
+    # max_self_any_th / max_self_end_th / max_hairpin_th / pair_compl_*_th
+    # are all 47.0), stated explicitly so the config says what it means.
+    # Physical equivalents (fitted against calc_homodimer/calc_hairpin):
+    #   SELF_ANY_TH 47 ~ homodimer dG -12.5 kcal/mol
+    #   HAIRPIN_TH  47 ~ hairpin  dG  -0.8 kcal/mol
+    "PRIMER_MAX_SELF_ANY_TH": 47.0, "PRIMER_MAX_SELF_END_TH": 47.0,
+    "PRIMER_MAX_HAIRPIN_TH": 47.0,
+    # pair-level (hetero-dimer) bounds; previously unset, i.e. these defaults
+    "PRIMER_PAIR_MAX_COMPL_ANY_TH": 47.0, "PRIMER_PAIR_MAX_COMPL_END_TH": 47.0,
     "PRIMER_MAX_END_STABILITY": 6.0,
     "PRIMER_MAX_POLY_X": 5,
     "PRIMER_NUM_RETURN": 10,

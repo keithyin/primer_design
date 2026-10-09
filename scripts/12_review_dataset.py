@@ -26,7 +26,8 @@ import sys
 
 import primer3
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 
 RC = str.maketrans("ACGT", "TGCA")
@@ -259,7 +260,11 @@ def deep_dive(seq, rs0, re1, unit, ulen, label, lines):
             k = j
         else:
             k += 1
-    if run_pos:
+    if ulen == 2:
+        lines.append("\nwalk 复现：**不适用** —— GC 家族行按“最大完美串联”定义，"
+                     "而 walk（max_streak=2）是 GCC 家族行的口径；两者边界规则不同，"
+                     "故此处不作 walk 复现。该行的完美串联与最大性由 P2 独立校验。\n")
+    elif run_pos:
         k0, L = max(run_pos, key=lambda x: x[1])
         ne_l, ni_l, l_edge = walk(seq, rs0 + k0 * ulen, unit, -1)
         ne_r, ni_r, r_edge = walk(seq, rs0 + (k0 + L) * ulen, unit, +1)
@@ -282,10 +287,19 @@ def main():
     with open(os.path.join(BASE, "results", "primer_design_results.tsv")) as f:
         for r in csv.DictReader(f, delimiter="\t"):
             rows.append(r)
+    # Reading frame per locus, taken from the scan that produced it. The chr12
+    # >30 locus is only present in dense_scan.tsv (09_build_panel.py injects it
+    # from there), so interrupted_scan.tsv alone leaves it with no frame --
+    # which used to mark every unit of that row as an interruption.
     scan_unit = {}
-    with open(os.path.join(BASE, "data", "interrupted_scan.tsv")) as f:
-        for r in csv.DictReader(f, delimiter="\t"):
-            scan_unit[(r["chrom"], int(r["start"]))] = r["unit"]
+    for fn in ("interrupted_scan.tsv", "dense_scan.tsv"):
+        path = os.path.join(BASE, "data", fn)
+        if not os.path.exists(path):
+            print(f"warning: {fn} missing; frames from it unavailable", file=sys.stderr)
+            continue
+        with open(path) as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                scan_unit.setdefault((r["chrom"], int(r["start"])), r["unit"])
     with open(os.path.join(BASE, "results", "method_D_genomescan.json")) as f:
         dmap = {d["no"]: d for d in json.load(f)["rows"]}
 
@@ -345,11 +359,18 @@ def main():
         r = by_key[(chrom, rs0_key)]
         rs0, re1 = int(r["repeat_start"]) - 1, int(r["repeat_end"])
         ulen = 2 if r["family"] == "GC" else 3
-        su = scan_unit.get((chrom, rs0))
-        unit = su if ulen == 3 else r["fwd"] and None  # placeholder replaced below
         seq = load_chrom(chrom)
         if ulen == 2:
             unit = seq[rs0:rs0 + 2]
+        else:
+            unit = scan_unit.get((chrom, rs0))
+            if unit is None:
+                # last resort: the frame that yields the most exact units
+                t = seq[rs0:re1]
+                unit = max(("GCC", "CCG", "CGC", "GGC", "CGG", "GCG"),
+                           key=lambda u: aligned_count(t, u, 0))
+                print(f"note: {chrom}:{rs0} frame not in scan files; "
+                      f"inferred {unit} from sequence", file=sys.stderr)
         deep_dive(seq, rs0, re1, unit, ulen,
                   f"#{r['no']} {name}（{r['gene']}）{chrom}:{r['repeat_start']}-{r['repeat_end']}",
                   lines)

@@ -9,7 +9,8 @@ import sys
 import time
 import urllib.request
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 
 
 def ens_request(url, retries=3):

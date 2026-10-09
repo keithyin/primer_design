@@ -20,7 +20,8 @@ import time
 
 import numpy as np
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 GENOME_ONE = os.path.join(BASE, "data", "hg38_oneline")
 K = 15
 CHUNK = 20_000_000

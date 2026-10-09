@@ -245,11 +245,11 @@
     900
    ],
    "full_off": 0,
-   "end15_off": 57,
+   "end15_off": 56,
    "left_full_off": 0,
    "left_end15_off": 23,
    "right_full_off": 0,
-   "right_end15_off": 34
+   "right_end15_off": 33
   },
   "status": "ok_check"
  },
@@ -745,9 +745,9 @@
     1000
    ],
    "full_off": 0,
-   "end15_off": 45,
+   "end15_off": 44,
    "left_full_off": 0,
-   "left_end15_off": 39,
+   "left_end15_off": 38,
    "right_full_off": 0,
    "right_end15_off": 6
   },

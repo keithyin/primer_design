@@ -1,0 +1,26 @@
+{
+ "n_pairs": 24,
+ "flag_counts": {
+  "ok": 21,
+  "warn": 3,
+  "fail": 0
+ },
+ "thresholds": {
+  "MAX_SELF_ANY_TH": 47.0,
+  "MAX_SELF_END_TH": 47.0,
+  "MAX_HAIRPIN_TH": 47.0,
+  "MAX_COMPL_ANY_TH": 47.0,
+  "MAX_COMPL_END_TH": 47.0,
+  "END_RUN_WARN": 5
+ },
+ "threshold_note": "limits are primer3 `_TH` values, read back for the delivered oligos; the NN dG columns are physical magnitude and are not thresholded",
+ "model": "SantaLucia 1998 unified NN, 1 M NaCl, T=310.15 K",
+ "hairpin_note": "stem only; loop entropy omitted (upper bound)",
+ "engine_agreement_het_1M": {
+  "n": 24,
+  "max_abs_diff": 2.557530000003103,
+  "mean_abs_diff": 1.7131127291706747,
+  "pearson_r": 0.9356998620561906
+ },
+ "breaches": []
+}

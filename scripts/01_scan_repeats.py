@@ -6,12 +6,15 @@ Targets:
   - trinucleotide pure-GC repeats ((GCC)n family: GCC/CCG/CGC/GGC/CGG/GCG), copy number >= 20
 Outputs candidates with bucket assignment (20-25 / 25-30 / >30).
 """
+import os
 import json
 import time
 import urllib.request
 
 CHROMS = [f"chr{i}" for i in range(1, 23)] + ["chrX", "chrY"]
-OUT = "/home/keith/projects/primer_design/data/candidates.tsv"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(BASE, "data", "candidates.tsv")
 
 
 def fetch_track(chrom):

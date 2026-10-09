@@ -8,7 +8,8 @@ README.md is maintained alongside this pipeline (not generated here).
 import json
 import os
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 
 # canonical GC-trinucleotide expansion loci (literature nomenclature),
 # matched by coordinate window (tract bounds may shift a few bp between scans)

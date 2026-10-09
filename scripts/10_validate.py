@@ -25,7 +25,8 @@ import os
 import subprocess
 import urllib.request
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 
 TRINUC_ROTS = ["GCC", "CCG", "CGC", "GGC", "CGG", "GCG"]
@@ -290,7 +291,7 @@ def main():
         for line in f:
             d = dict(zip(h, line.rstrip("\n").split("\t")))
             ann[(d["chrom"], int(d["start"]))] = d
-    okE, detE, n_match = True, [], 0
+    okE, detE, n_match, n_direct = True, [], 0, 0
     import time as _time
     for r in rows:
         c = r["chrom"]
@@ -317,6 +318,7 @@ def main():
         ens_gene = r["gene"]
         if ens_gene in overlap:
             n_match += 1
+            n_direct += 1
         elif ens_gene in near:
             # benign transcript-boundary difference between Ensembl and RefSeq
             rep.info(f"#{r['no']} {c}:{rs0 + 1} {ens_gene}：Ensembl 基因体包含该位点，"
@@ -335,7 +337,9 @@ def main():
             okE = False
             detE.append(f"#{r['no']} {c}:{rs0 + 1} Ensembl={ens_gene} vs UCSC 重叠={sorted(x for x in overlap if x)[:4]}")
     rep.check("E", "UCSC RefSeq 与 Ensembl 注释交叉核对", okE, "; ".join(detE))
-    rep.lines.append(f"- [INFO] 基因符号直接匹配 {n_match}/{len(rows)}")
+    rep.lines.append(f"- [INFO] 注释核对：{n_match}/{len(rows)} 行与 RefSeq 无矛盾，"
+                     f"其中 {n_direct}/{len(rows)} 行为基因符号直接匹配；"
+                     f"其余为 RefSeq 无模型或仅有边界差异（见上列 INFO）")
 
     # ---------------- Method D merge ----------------
     dpath = os.path.join(BASE, "results", "method_D_genomescan.json")
@@ -344,7 +348,7 @@ def main():
         d = json.load(open(dpath))
         with open(os.path.join(BASE, "results", "designed.json")) as f:
             dj = [it for it in json.load(f) if it.get("status") in ("ok", "ok_check")]
-        okD, detD, diff15 = True, [], 0
+        okD, okD15, detD, det15, diff15 = True, True, [], [], 0
         for it, item in zip(dj, d["rows"]):
             p = it["pair"]
             for side, gk in (("fwd", "left"), ("rev", "right")):
@@ -352,16 +356,19 @@ def main():
                     okD = False
                     detD.append(f"#{item['no']} {side} full_off grep={p[f'{gk}_full_off']} numpy={item[side]['full_off']}")
                 if item[side]["end15_off"] < p[f"{gk}_end15_off"]:
-                    okD = False
-                    detD.append(f"#{item['no']} {side} end15 numpy < grep（不允许）")
+                    okD15 = False
+                    det15.append(f"#{item['no']} {side} numpy={item[side]['end15_off']} < grep={p[f'{gk}_end15_off']}")
                 elif item[side]["end15_off"] != p[f"{gk}_end15_off"]:
                     diff15 += 1
         n_primers = 2 * len(d["rows"])
         rep.check("D1a", f"全长脱靶计数：grep 与 numpy 两种实现完全一致（{n_primers}/{n_primers}）",
                   okD, "; ".join(detD[:4]))
-        rep.lines.append(f"- [INFO] 3'-15mer 脱靶计数：{diff15}/{n_primers} 条 grep 因非重叠匹配语义少计"
-                         f"（numpy 按位置计数为准），全部满足 numpy ≥ grep，方向与预期一致")
-        rep.check("D1b", "3'-15mer 计数关系 numpy ≥ grep（grep -o 非重叠语义）", True)
+        if okD15:
+            rep.lines.append(f"- [INFO] 3'-15mer 脱靶计数：{diff15}/{n_primers} 条 grep 因非重叠匹配语义"
+                             f"少计（numpy 按位置计数为准），全部满足 numpy ≥ grep，方向与预期一致")
+        else:
+            rep.lines.append(f"- [INFO] 3'-15mer 脱靶计数：{len(det15)} 项违反 numpy ≥ grep")
+        rep.check("D1b", "3'-15mer 计数关系 numpy ≥ grep（grep -o 非重叠语义）", okD15, "; ".join(det15[:4]))
         rep.lines.append(f"- [INFO] 扫描范围：{d['scanned_files']} 个 contig，{d['scanned_bp'] / 1e9:.2f} Gbp（正链编码，模式含正反两向）")
 
     n_fail = rep.summary()

@@ -18,7 +18,8 @@ import os
 import re
 import sys
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 RC = str.maketrans("ACGT", "TGCA")
 fails = []
@@ -61,11 +62,21 @@ def main():
     }
     for path, n in inv.items():
         p = os.path.join(BASE, path)
-        if path.endswith(".json"):
-            d = json.load(open(p))
-            cnt = len(d["rows"]) if isinstance(d, dict) and "rows" in d else len(d)
-        else:
-            cnt = sum(1 for _ in open(p)) - 1
+        if not os.path.exists(p):
+            # data/ is gitignored and may be absent from a checkout; report it
+            # instead of dying with a traceback mid-gate.
+            check(f"{path} 行数 == {n}", False, "文件缺失")
+            continue
+        try:
+            if path.endswith(".json"):
+                with open(p) as f:
+                    d = json.load(f)
+                cnt = len(d["rows"]) if isinstance(d, dict) and "rows" in d else len(d)
+            else:
+                cnt = sum(1 for _ in open(p)) - 1
+        except Exception as e:
+            check(f"{path} 行数 == {n}", False, f"读取失败: {e}")
+            continue
         check(f"{path} 行数 == {n}", cnt == n, f"实际 {cnt}")
 
     # F2 structure
@@ -91,11 +102,20 @@ def main():
     print("F3/F4 per-row genome verification")
     cache = {}
     bad = []
+    genome_gap = []
     for r in rows:
         c = r["chrom"]
         if c not in cache:
-            cache[c] = load_chrom(c)
+            try:
+                cache[c] = load_chrom(c)
+            except OSError:
+                # no local genome: record it once per chromosome, skip the row
+                if c not in genome_gap:
+                    genome_gap.append(c)
+                cache[c] = None
         seq = cache[c]
+        if seq is None:
+            continue
         a0, a1 = int(r["amplicon_start"]) - 1, int(r["amplicon_end"])
         rs0, re1 = int(r["repeat_start"]) - 1, int(r["repeat_end"])
         amp = seq[a0:a1]
@@ -128,7 +148,14 @@ def main():
             ex, it = int(m2.group(1)), int(m2.group(2))
             if ex + it != units:
                 bad.append(f"#{r['no']} 精确+中断 != 单元数")
-    check("24 行引物位点/产物/包含关系（fresh 基因组读取）", not bad, "; ".join(bad[:5]))
+    if genome_gap:
+        check(f"参考基因组可用（{CHROM_FA}）", False,
+              f"缺失染色体: {','.join(genome_gap[:5])}"
+              f"{' 等' if len(genome_gap) > 5 else ''}；本项及以下基因组相关检查无法执行")
+    check("24 行引物位点/产物/包含关系（fresh 基因组读取）",
+          not bad and not genome_gap,
+          "; ".join(bad[:5]) if bad else
+          ("参考基因组不可用，本项未能执行" if genome_gap else ""))
 
     # F5 cross-file agreement
     print("F5 cross-file agreement")
@@ -194,7 +221,79 @@ def main():
           all(os.path.exists(os.path.join(BASE, "scripts", f)) for f in
               ("09_build_panel.py", "02b_design_panel.py", "03b_pick_specific.py",
                "04_annotate.py", "11_validate_genome_scan.py", "05_build_report.py",
-               "10_validate.py", "12_review_dataset.py")))
+               "10_validate.py", "12_review_dataset.py", "21_build_delivery.py")))
+
+    # F9 the delivery table -- the artifact the sample-prep group actually uses.
+    # Its two primer-coordinate columns are derived (not stored upstream), and
+    # its `Repeats 特点` string is a re-formatted derivative, so both are
+    # re-derived here from the reference genome and from the authoritative TSV.
+    print("F9 delivery table")
+    md_path = os.path.join(BASE, "results", "primer_panel_delivery.md")
+    csv_path = os.path.join(BASE, "results", "primer_panel_delivery.csv")
+    if not (os.path.exists(md_path) and os.path.exists(csv_path)):
+        check("交付表 .md / .csv 存在", False, "文件缺失")
+    else:
+        check("交付表 .md / .csv 存在", True)
+        with open(csv_path, newline="") as f:
+            dl = list(csv.DictReader(f))
+        check("交付表 CSV 行数 == 24", len(dl) == 24, f"{len(dl)}")
+        need = ["no", "gene", "chrom", "repeat_start", "repeat_end", "product_size",
+                "fwd", "fwd_start", "fwd_end", "rev", "rev_start", "rev_end",
+                "fwd_tm", "rev_tm", "repeats"]
+        check("交付表列齐全且非空",
+              all(k in dl[0] for k in need)
+              and all(str(r.get(k, "")).strip() for r in dl for k in need))
+
+        tsv_by_no = {r["no"]: r for r in rows}
+        bad = []
+        for r in dl:
+            t = tsv_by_no.get(r["no"])
+            if t is None:
+                bad.append(f"#{r['no']} 在权威 TSV 中不存在")
+                continue
+            if r["fwd"] != t["fwd"] or r["rev"] != t["rev"]:
+                bad.append(f"#{r['no']} 引物序列与权威 TSV 不一致")
+            if (r["chrom"], int(r["repeat_start"]), int(r["repeat_end"])) != \
+               (t["chrom"], int(t["repeat_start"]), int(t["repeat_end"])):
+                bad.append(f"#{r['no']} 重复区坐标与权威 TSV 不一致")
+            if abs(float(r["fwd_tm"]) - float(t["fwd_tm"])) > 0.05 or \
+               abs(float(r["rev_tm"]) - float(t["rev_tm"])) > 0.05:
+                bad.append(f"#{r['no']} Tm 与权威 TSV 不一致")
+            # internal geometry of the delivered row
+            if int(r["fwd_end"]) - int(r["fwd_start"]) + 1 != len(r["fwd"]):
+                bad.append(f"#{r['no']} F 坐标跨度 != 引物长度")
+            if int(r["rev_end"]) - int(r["rev_start"]) + 1 != len(r["rev"]):
+                bad.append(f"#{r['no']} R 坐标跨度 != 引物长度")
+            if int(r["rev_end"]) - int(r["fwd_start"]) + 1 != int(r["product_size"]):
+                bad.append(f"#{r['no']} 产物长度 != 引物坐标跨度")
+            if not (int(r["fwd_end"]) < int(r["repeat_start"])
+                    and int(r["repeat_end"]) < int(r["rev_start"])):
+                bad.append(f"#{r['no']} 引物与重复区重叠")
+            # fresh genome check of BOTH primer binding intervals
+            c = r["chrom"]
+            if c not in cache:
+                try:
+                    cache[c] = load_chrom(c)
+                except OSError:
+                    cache[c] = None
+            seq = cache[c]
+            if seq is None:
+                continue
+            if seq[int(r["fwd_start"]) - 1:int(r["fwd_end"])] != r["fwd"]:
+                bad.append(f"#{r['no']} F 坐标处序列 != 正向引物")
+            if seq[int(r["rev_start"]) - 1:int(r["rev_end"])] != rc(r["rev"]):
+                bad.append(f"#{r['no']} R 坐标处序列 != 反向引物互补")
+        check("交付表 24 行坐标/序列/几何（fresh 基因组复算）",
+              not bad, "; ".join(bad[:5]))
+
+        with open(md_path) as f:
+            md_text = f.read()
+        n_md_rows = sum(1 for ln in md_text.splitlines()
+                        if ln.startswith("| ") and ln.split("|")[1].strip().isdigit())
+        check("交付表 Markdown 含 24 行", n_md_rows == 24, f"{n_md_rows}")
+        check("交付表 Markdown 含坐标与 Tm 条件脚注",
+              "Tm F/R (°C)" in md_text and "参考基因组" in md_text
+              and "primer_panel_delivery_notes.md" in md_text)
 
     print()
     if fails:

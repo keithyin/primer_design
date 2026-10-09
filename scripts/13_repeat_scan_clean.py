@@ -17,7 +17,8 @@ import os
 import re
 import sys
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 CHROM_FA = os.path.join(BASE, "data", "hg38", "chromFa")
 TRINUC = ["GCC", "CCG", "CGC", "GGC", "CGG", "GCG"]
 DINUC = ["GC", "CG"]

@@ -11,7 +11,8 @@ import os
 import subprocess
 import sys
 
-BASE = "/home/keith/projects/primer_design"
+BASE = os.environ.get("PRIMER_DESIGN_BASE") or os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))
 GENOME_ONE = os.path.join(BASE, "data", "hg38_oneline")
 REVCOMP = str.maketrans("ACGT", "TGCA")
 
@@ -101,10 +102,16 @@ def main():
         for i, pr in enumerate(primers):
             chrom = pr["locus"].split(":")[0]
             seq_f, seq_r = pr["seq"], rc(pr["seq"])
+            # The pattern file holds s[-15:] and rc(s[-15:]) (see main()), so both
+            # lookups must use the 3'-terminal 15-mer and its reverse complement.
+            # Using seq_r[-15:] here would query rc(5'-terminal 15-mer) instead,
+            # which is never in the pattern set -- that silently dropped every
+            # minus-strand 3'-15mer hit and made right primers read 0.
+            end_f, end_r = seq_f[-15:], rc(seq_f[-15:])
             fh = full_counts.get(seq_f, 0) + full_counts.get(seq_r, 0)
             fh_off = fh - (full_by_chrom.get((seq_f, chrom), 0) + full_by_chrom.get((seq_r, chrom), 0))
-            eh = end_counts.get(seq_f[-15:], 0) + end_counts.get(seq_r[-15:], 0)
-            eh_off = eh - (end_by_chrom.get((seq_f[-15:], chrom), 0) + end_by_chrom.get((seq_r[-15:], chrom), 0))
+            eh = end_counts.get(end_f, 0) + end_counts.get(end_r, 0)
+            eh_off = eh - (end_by_chrom.get((end_f, chrom), 0) + end_by_chrom.get((end_r, chrom), 0))
             f.write(f"{pr['locus']}\t{pr['side']}\t{pr['seq']}\t{fh}\t{fh_off}\t{eh}\t{eh_off}\n")
     print(f"wrote {out}", file=sys.stderr)
 
